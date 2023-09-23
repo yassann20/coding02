@@ -1,0 +1,264 @@
+@media screen and (min-width:1140px) {
+    main {
+        width: 100%;
+        height: auto;
+    }
+
+    main div {
+        width: 1110px;
+        height: auto;
+        margin: 70px auto 0;
+    }
+
+    /*============================
+#service-content
+============================*/
+    main div div#service-content {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 280px;
+    }
+
+    main div div#service-content picture {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 445px;
+        height: 280px;
+        z-index: 1;
+    }
+
+    main div div#service-content picture source {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    main div div#service-content picture img {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+    }
+
+    main div div#service-content div {
+      width: 615px;
+      height: 100%;
+      margin: 0 0 0 50px; 
+    }
+
+    main div div#service-content div h2 {
+        width: 100%;
+        height: 32px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 24px;
+        letter-spacing: 0.05em;
+        line-height: 32px;
+        text-align: left;
+        color: #333;
+        margin: 0 0 20px 0;
+    }
+
+    main div div#service-content div p {
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 27px;
+        text-align: left;
+        color: #333;
+
+    }
+
+    /*============================
+#contact
+============================*/
+    main div#contact {
+        margin: 110px auto 0;
+    }
+
+}
+@media screen and (min-width:700px) and (max-width:1139px) {
+      main {
+          width: 100%;
+          height: auto;
+      }
+
+      main div {
+          width: 335px;
+          height: auto;
+          margin: 40px auto 0;
+      }
+
+      /*============================
+#service-content
+============================*/
+      main div div#service-content {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          width: 100%;
+          height: auto;
+      }
+
+      main div div#service-content picture {
+          display: block;
+          position: relative;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 211px;
+          z-index: 1;
+      }
+
+      main div div#service-content picture source {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+      }
+
+      main div div#service-content picture img {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+      }
+
+      main div div#service-content div {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+      }
+
+      main div div#service-content div h2 {
+          width: 100%;
+          height: 24px;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 18px;
+         letter-spacing: 0.05em;
+         line-height: 24px;
+         text-align: center;
+         color: #333;
+          margin: 18px 0 15px 0;
+      }
+
+      main div div#service-content div p {
+         font-family: Montserrat;
+         font-weight: normal;
+         font-size: 14px;
+         letter-spacing: 0.05em;
+         line-height: 24px;
+         text-align: left;
+         color: #333;
+
+      }
+
+      /*============================
+#contact
+============================*/
+      main div#contact {
+          margin: 80px auto 0;
+      }
+}
+@media screen and (min-width:0px) and (max-width:699px) {
+     main {
+         width: 100%;
+         height: auto;
+     }
+
+     main div {
+         width: 335px;
+         height: auto;
+         margin: 40px auto 0;
+     }
+
+     /*============================
+#service-content
+============================*/
+     main div div#service-content {
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         width: 100%;
+         height: auto;
+     }
+
+     main div div#service-content picture {
+         display: block;
+         position: relative;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 211px;
+         z-index: 1;
+     }
+
+     main div div#service-content picture source {
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+     }
+
+     main div div#service-content picture img {
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+     }
+
+     main div div#service-content div {
+         width: 100%;
+         height: 100%;
+         margin: 0;
+     }
+
+     main div div#service-content div h2 {
+         width: 100%;
+         height: 24px;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 18px;
+         letter-spacing: 0.05em;
+         line-height: 24px;
+         text-align: center;
+         color: #333;
+         margin: 18px 0 15px 0;
+     }
+
+     main div div#service-content div p {
+         font-family: Montserrat;
+         font-weight: normal;
+         font-size: 14px;
+         letter-spacing: 0.05em;
+         line-height: 24px;
+         text-align: left;
+         color: #333;
+
+     }
+
+     /*============================
+#contact
+============================*/
+     main div#contact {
+         margin: 80px auto 0;
+     }
+}

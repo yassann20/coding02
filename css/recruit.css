@@ -1,0 +1,811 @@
+@media screen and (min-width:1140px) {
+   main {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 0;
+   }
+
+   /*============================
+#subpage
+============================*/
+   main div#subpage {
+    width: 100%;
+    height: 100%;
+    margin: 116px auto 0;
+   }
+
+   /*============================
+#content1
+============================*/
+   main div#subpage div#content1 {
+    width: 100%;
+    height: 1068px;
+    margin: 0 auto;
+   }
+
+   main div#subpage div#content1 h2 {
+    width: 100%;
+    height: 88px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 72px;
+    letter-spacing: 0.01em;
+    line-height: 88px;
+    text-align: center;
+    color: #391e88;
+   }
+
+   main div#subpage div#content1 h3 {
+    width: 100%;
+    height: 43px;
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    line-height: 43px;
+    text-align: center;
+    color: #391e88;
+    margin: 8px auto 0;
+   }
+
+   main div#subpage div#content1 p {
+    width: 288px;
+    height: auto;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 28px;
+    text-align: center;
+    color: #333;
+    margin: 34px auto 0;
+   }
+
+   main div#subpage div#content1 picture {
+      position: relative;
+      display: block;
+      width: 1440px;
+      height: 780px;
+      margin: 0 auto 0;
+   }
+
+   main div#subpage div#content1 picture source {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+   }
+
+   main div#subpage div#content1 picture img {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+
+   /*============================
+#content2
+============================*/
+   main div#subpage div#content2 {
+    width: 1110px;
+    height: 869px;
+    margin: 63px auto 0;
+   }
+
+   main div#subpage div#content2 h2 {
+    width: 100%;
+    height: 43px;
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    line-height: 43px;
+    text-align: center;
+    color: #391e88;
+    margin: 0 auto 0;
+   }
+
+   main div#subpage div#content2 div#recruit-content {
+    width: 1110px;
+    height: 790px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #b8aed5;
+    margin: 36px auto 0;
+   }
+
+   main div#subpage div#content2 div h3 {
+      width: 100%;
+      height: 32px;
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 24px;
+      letter-spacing: 0.05em;
+      line-height: 32px;
+      text-align: center;
+      color: #333;
+      margin: 57px auto 0;
+   }
+
+   main div#subpage div#content2 div ul {
+      width: 920px;
+      height: auto;
+      margin: 0 auto 0;
+      padding: 0;
+   }
+
+   main div#subpage div#content2 div ul li.content2-li {
+      display: flex;
+      height: 77px;
+      border-bottom: solid 1px #DDDDDD;
+      list-style: none;
+   }
+
+
+   main div#subpage div#content2 div ul li h4 {
+      width: 157px;
+      height: 77px;
+      font-family: "Hiragino Sans";
+      font-weight: normal;
+      font-size: 15px;
+      letter-spacing: 0.05em;
+      line-height: 77px;
+      text-align: left;
+      color: #333;
+      margin: 0 0 0 20px;
+   }
+
+   main div#subpage div#content2 div ul li p {
+      width: calc( 100% - 157px );
+      height: 77px;
+      font-family: Montserrat;
+      font-weight: normal;
+      font-size: 15px;
+      letter-spacing: 0.05em;
+      line-height: 77px;
+      text-align: left;
+      color: #333;
+
+   }
+
+    main div#subpage div#content2 div ul li:nth-child(5) {
+       height: 194px;
+    }
+
+    main div#subpage div#content2 div ul li:nth-child(5) div{
+       width: calc( 100% - 177px );
+    }
+
+     main div#subpage div#content2 div ul li:nth-child(5) div p{
+      width: 100%;
+      height: 47px;
+       font-family: Montserrat;
+       font-weight: normal;
+       font-size: 15px;
+       letter-spacing: 0.05em;
+       line-height: 27px;
+       text-align: left;
+       color: #333;
+       margin: 30.5px auto 0;
+
+     }
+
+     main div#subpage div#content2 div ul li:nth-child(5) div ul{
+        width: 100%;
+        height: 74px;
+        padding: 0;
+        margin: 15px 0 0;
+     }
+
+     main div#subpage div#content2 div ul li:nth-child(5) div ul li{
+      font-family: Montserrat;
+      font-weight: normal;
+      font-size: 15px;
+      letter-spacing: 0.05em;
+      line-height: 27px;
+      text-align: left;
+      color: #333;
+        list-style: none;
+     }
+
+   main div#subpage div#content2 div a {
+      margin: 50.5px auto 0;
+   }
+
+   main div#subpage div#content2 div p {
+      height: 16px;
+      font-family: Montserrat;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      color: #333;
+      margin: 2px auto 0;
+   }
+
+   /*============================
+#content3
+============================*/
+   main div#subpage div#content3 {
+      width: 1110px;
+      height: 703px;
+      margin: 133px auto 0;
+   }
+
+   main div#subpage div#content3 h2 {
+      width: 100%;
+      height: 43px;
+      font-family: "Hiragino Sans";
+      font-weight: normal;
+      font-size: 32px;
+      letter-spacing: 0.05em;
+      line-height: 43px;
+      text-align: center;
+      color: #391e88;
+
+   }
+
+   main div#subpage div#content3 div {
+      width: 1110px;
+      height: 624px;
+      background: #ebebeb;
+      margin: 36px auto 0;
+   }
+
+   /*============================
+#content4
+============================*/
+   main div div#content4 {
+      width: 100%;
+      height: 356px;
+      background: #f7f7f7;
+      padding: 1px;
+      margin: 110px auto 0;
+   }
+
+   main div div#content4 h2 {
+      width: 100%;
+      height: 46px;
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 34px;
+      letter-spacing: 0.02em;
+      line-height: 46px;
+      text-align: center;
+      color: #391e88;
+      margin: 75px auto 0;
+   }
+
+   main div div#content4 h3 {
+      width: 100%;
+      height: 18px;
+      font-family: "Hiragino Sans";
+      font-weight: normal;
+      font-size: 14px;
+      letter-spacing: 0.05em;
+      line-height: 32px;
+      text-align: center;
+      color: #391e88;
+      margin: 0 auto 30px;
+   }
+
+   main div div#content4 p {
+      width: 100%;
+      height: 20px;
+      font-family: "Hiragino Sans";
+      font-weight: normal;
+      font-size: 15px;
+      letter-spacing: 0.05em;
+      line-height: 32px;
+      text-align: center;
+      color: #333;
+      margin: 30px auto;
+   }
+
+   main div div#content4 a {
+      margin: 0 auto;
+   }
+}
+@media screen and (min-width:700px) and (max-width:1139px) {
+     main {
+        width: 100%;
+        height: auto;
+        margin: 0 auto 0;
+     }
+
+     /*============================
+#subpage
+============================*/
+     main div#subpage {
+        width: 100%;
+        height: 100%;
+        margin: 40px auto 0;
+     }
+
+     /*============================
+#content1
+============================*/
+     main div#subpage div#content1 {
+        width: 375px;
+        height: auto;
+        margin: 0 auto;
+     }
+
+     main div#subpage div#content1 h2 {
+        width: 100%;
+        height: auto;
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 48px;
+      letter-spacing: 0.01em;
+      line-height: 56px;
+      text-align: center;
+      color: #391e88;
+
+     }
+
+     main div#subpage div#content1 h3 {
+        width: 100%;
+        height: 24px;
+       font-family: "Hiragino Sans";
+       font-weight: normal;
+       font-size: 18px;
+       letter-spacing: 0.05em;
+       line-height: 24px;
+       text-align: center;
+       color: #391e88;
+        margin: 8px auto 0;
+     }
+
+     main div#subpage div#content1 p {
+        width: 288px;
+        height: auto;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 16px;
+        letter-spacing: 0.05em;
+        line-height: 28px;
+        text-align: center;
+        color: #333;
+        margin: 34px auto 0;
+     }
+
+     main div#subpage div#content1 picture {
+        position: relative;
+        display: block;
+       width: 375px;
+       height: 290px;
+       margin: 0 auto 0;
+     }
+
+     main div#subpage div#content1 picture source {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+     }
+
+     main div#subpage div#content1 picture img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+     }
+
+     /*============================
+#content2
+============================*/
+     main div#subpage div#content2 {
+        width: 375px;
+        height: auto;
+        margin: 63px auto 0;
+     }
+
+     main div#subpage div#content2 h2 {
+        width: 100%;
+        height: 43px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 0.05em;
+        line-height: 43px;
+        text-align: center;
+        color: #391e88;
+        margin: 0 auto 0;
+     }
+
+     main div#subpage div#content2 div#recruit-content {
+        width: 335px;
+        height: auto;
+        border-radius: 10px;
+        background: #fff;
+        border: 1px solid #b8aed5;
+        margin: 36px auto 0;
+     }
+
+     main div#subpage div#content2 div h3 {
+        width: 100%;
+        height: 32px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 24px;
+        letter-spacing: 0.05em;
+        line-height: 32px;
+        text-align: center;
+        color: #333;
+        margin: 57px auto 0;
+     }
+
+     main div#subpage div#content2 div ul {
+        width: 335px;
+        height: auto;
+        margin: 0 auto 0;
+        padding: 1px;
+     }
+
+     main div#subpage div#content2 div ul li.content2-li {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        border-bottom: solid 1px #DDDDDD;
+        list-style: none;
+        margin: 0 20px 0;
+     }
+
+
+     main div#subpage div#content2 div ul li h4 {
+        width: 100%;
+        height: 19px;
+       font-family: "Hiragino Sans";
+       font-weight: normal;
+       font-size: 14px;
+       letter-spacing: 0.05em;
+       line-height: 19px;
+       text-align: left;
+       color: #333;
+       margin: 17.5px auto 7px;
+     }
+
+     main div#subpage div#content2 div ul li p {
+      width: 100%;
+      height: auto;
+       font-family: Montserrat;
+       font-weight: normal;
+       font-size: 15px;
+       letter-spacing: 0.05em;
+       line-height: 20px;
+       text-align: left;
+       color: #333;
+       margin: 0 auto 14.5px;
+     }
+
+      main div#subpage div#content2 div ul li.content2-li:nth-child(5) div{
+         display: flex;
+         flex-wrap: wrap;
+         width: 100%;
+         height: auto;
+         border-bottom: solid 1px #DDDDDD;
+         list-style: none;
+         margin: 0;
+      }
+
+      main div#subpage div#content2 div ul li.content2-li:nth-child(5) div ul{
+        padding: 0;
+      }
+      main div#subpage div#content2 div ul li.content2-li:nth-child(5) div ul li{
+         font-family: Montserrat;
+         font-weight: normal;
+         font-size: 14px;
+         letter-spacing: 0.05em;
+         line-height: 23px;
+         text-align: left;
+         color: #333;
+         list-style: none;
+      }
+
+     main div#subpage div#content2 div a {
+        margin: 40px auto 0;
+     }
+
+     main div#subpage div#content2 div p {
+        height: 16px;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        color: #333;
+        margin: 2px auto 28px;
+     }
+
+     /*============================
+#content3
+============================*/
+     main div#subpage div#content3 {
+        width: 335px;
+        height: auto;
+        margin: 75px auto 0;
+     }
+
+     main div#subpage div#content3 h2 {
+        width: 100%;
+        height: 43px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 0.05em;
+        line-height: 43px;
+        text-align: center;
+        color: #391e88;
+     }
+
+     main div#subpage div#content3 div {
+        width: 100%;
+        height: 188px;
+        background: #ebebeb;
+        margin: 36px auto 0;
+     }
+
+     main #contact{
+      margin-top: 80px!important;
+     }
+
+     main div div#content4 a {
+        margin: 0 auto;
+     }
+}
+@media screen and (min-width:0px) and (max-width:699px) {
+     main {
+        width: 100%;
+        height: auto;
+        margin: 0 auto 0;
+     }
+
+     /*============================
+#subpage
+============================*/
+     main div#subpage {
+        width: 100%;
+        height: 100%;
+        margin: 40px auto 0;
+     }
+
+     /*============================
+#content1
+============================*/
+     main div#subpage div#content1 {
+        width: 375px;
+        height: auto;
+        margin: 0 auto;
+     }
+
+     main div#subpage div#content1 h2 {
+        width: 100%;
+        height: auto;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 48px;
+        letter-spacing: 0.01em;
+        line-height: 56px;
+        text-align: center;
+        color: #391e88;
+
+     }
+
+     main div#subpage div#content1 h3 {
+        width: 100%;
+        height: 24px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 18px;
+        letter-spacing: 0.05em;
+        line-height: 24px;
+        text-align: center;
+        color: #391e88;
+        margin: 8px auto 0;
+     }
+
+     main div#subpage div#content1 p {
+        width: 288px;
+        height: auto;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 16px;
+        letter-spacing: 0.05em;
+        line-height: 28px;
+        text-align: center;
+        color: #333;
+        margin: 34px auto 0;
+     }
+
+     main div#subpage div#content1 picture {
+        position: relative;
+        display: block;
+        width: 375px;
+        height: 290px;
+        margin: 0 auto 0;
+     }
+
+     main div#subpage div#content1 picture source {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+     }
+
+     main div#subpage div#content1 picture img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+     }
+
+     /*============================
+#content2
+============================*/
+     main div#subpage div#content2 {
+        width: 375px;
+        height: auto;
+        margin: 63px auto 0;
+     }
+
+     main div#subpage div#content2 h2 {
+        width: 100%;
+        height: 43px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 0.05em;
+        line-height: 43px;
+        text-align: center;
+        color: #391e88;
+        margin: 0 auto 0;
+     }
+
+     main div#subpage div#content2 div#recruit-content {
+        width: 335px;
+        height: auto;
+        border-radius: 10px;
+        background: #fff;
+        border: 1px solid #b8aed5;
+        margin: 36px auto 0;
+     }
+
+     main div#subpage div#content2 div h3 {
+        width: 100%;
+        height: 32px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 24px;
+        letter-spacing: 0.05em;
+        line-height: 32px;
+        text-align: center;
+        color: #333;
+        margin: 57px auto 0;
+     }
+
+     main div#subpage div#content2 div ul {
+        width: 335px;
+        height: auto;
+        margin: 0 auto 0;
+        padding: 1px;
+     }
+
+     main div#subpage div#content2 div ul li.content2-li {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        border-bottom: solid 1px #DDDDDD;
+        list-style: none;
+        margin: 0 20px 0;
+     }
+
+
+     main div#subpage div#content2 div ul li h4 {
+        width: 100%;
+        height: 19px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 19px;
+        text-align: left;
+        color: #333;
+        margin: 17.5px auto 7px;
+     }
+
+     main div#subpage div#content2 div ul li p {
+        width: 100%;
+        height: auto;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 20px;
+        text-align: left;
+        color: #333;
+        margin: 0 auto 14.5px;
+     }
+
+     main div#subpage div#content2 div ul li.content2-li:nth-child(5) div {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        border-bottom: solid 1px #DDDDDD;
+        list-style: none;
+        margin: 0;
+     }
+
+     main div#subpage div#content2 div ul li.content2-li:nth-child(5) div ul {
+        padding: 0;
+     }
+
+     main div#subpage div#content2 div ul li.content2-li:nth-child(5) div ul li {
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 23px;
+        text-align: left;
+        color: #333;
+        list-style: none;
+     }
+
+     main div#subpage div#content2 div a {
+        margin: 40px auto 0;
+     }
+
+     main div#subpage div#content2 div p {
+        height: 16px;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        color: #333;
+        margin: 2px auto 28px;
+     }
+
+     /*============================
+#content3
+============================*/
+     main div#subpage div#content3 {
+        width: 335px;
+        height: auto;
+        margin: 75px auto 0;
+     }
+
+     main div#subpage div#content3 h2 {
+        width: 100%;
+        height: 43px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 0.05em;
+        line-height: 43px;
+        text-align: center;
+        color: #391e88;
+     }
+
+     main div#subpage div#content3 div {
+        width: 100%;
+        height: 188px;
+        background: #ebebeb;
+        margin: 36px auto 0;
+     }
+
+     main #contact {
+        margin-top: 80px !important;
+     }
+
+     main div div#content4 a {
+        margin: 0 auto;
+     }
+}

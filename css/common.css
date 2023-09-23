@@ -1,0 +1,971 @@
+@media screen and (min-width:1140px) {
+      body {
+          margin: 0;
+          padding: 0;
+      }
+
+      /*============================
+#tophead
+============================*/
+      header#tophead {
+          width: 1440px;
+          height: 768px;
+          background-image: url("../photos/top/top-PC/hero.jpg");
+          background-position: center;
+          background-size: cover;
+          margin: 0 auto;
+          padding: 1px;
+      }
+
+      /*============================
+#head-content
+============================*/
+      header#tophead div#head-content {
+          position: relative;
+          display: flex;
+          width: 100%;
+          height: 86px;
+      }
+
+      header#tophead div#head-content a#logo-link {
+          display: block;
+          width: 160px;
+          height: 18px;
+          margin: 34px 0 0 30px;
+      }
+
+      header#tophead div#head-content a#logo-link picture {
+          position: relative;
+          display: block;
+          width: 100%;
+          height: 100%;
+      }
+
+      header#tophead div#head-content a#logo-link picture source {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+      }
+
+      header#tophead div#head-content a#logo-link picture img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+      }
+      header#tophead div#head-content nav {
+          width: auto;
+          height: 100%;
+      }
+
+      header#tophead div#head-content nav ul {
+          position: absolute;
+          right: 17.5px;
+          display: flex;
+          padding-left: 0;
+      }
+
+      header#tophead div#head-content nav ul li {
+          list-style: none;
+          margin: 34px 12.5px;
+      }
+
+      header#tophead div#head-content nav ul li a {
+          font-family: Montserrat;
+          font-weight: bold;
+          font-size: 14px;
+          letter-spacing: 0.05em;
+          line-height: 15px;
+          text-align: center;
+          color: #fff;
+          text-decoration: none;
+      }
+
+      header#tophead h1 {
+          width: 100%;
+          height: 88px;
+          font-family: Montserrat;
+          font-weight: bold;
+          font-size: 72px;
+          letter-spacing: 0.05em;
+          line-height: 88px;
+          text-align: left;
+          color: #fff;
+          margin: 180px 0 0 0;
+          text-align: center;
+      }
+
+      header#tophead h2 {
+          width: 100%;
+          height: 32px;
+          font-family: "Hiragino Sans";
+          font-weight: normal;
+          font-size: 24px;
+          letter-spacing: 0.1em;
+          line-height: 32px;
+          text-align: left;
+          color: #fff;
+          text-shadow: 0px 3px 6px rgba(153, 38, 196, 0.16);
+          margin: 15px 0 0 0;
+          text-align: center;
+      }
+
+      header#tophead #head-button {
+          display: block;
+          width: 220px;
+          height: 55px;
+          border-radius: 27.5px;
+          background: transparent;
+          border: 1px solid #fff;
+          text-decoration: none;
+          font-family: Montserrat;
+          font-weight: bold;
+          font-size: 15px;
+          letter-spacing: 0.05em;
+          line-height: 55px;
+          text-align: center;
+          color: #fff;
+          text-align: center;
+          margin: 47px auto 0;
+      }
+
+    #SP-menu{
+        display: none;
+      }
+
+       a.link-button {
+           display: block;
+           width: 200px;
+           height: 54px;
+           border-radius: 27px;
+           background: linear-gradient(#7633a4 0%, #250d65 100%);
+           font-family: Montserrat;
+           font-weight: bold;
+           font-size: 14px;
+           letter-spacing: 0.05em;
+           line-height: 54px;
+           text-align: center;
+           color: #fff;
+       }
+
+       main div#page-position {
+        width: 1440px;
+        min-height: 45px;
+        background: #f7f7f7;
+        margin: 0 auto;
+       }
+       main div#page-position span{
+        height: auto;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        line-height: 45px;
+        text-align: left;
+        color: #333;
+        margin: 0 0 0 165px;
+       }
+         /*============================
+#contact
+============================*/
+         main div#contact {
+             width: 100%;
+             height: 356px;
+             background: #f7f7f7;
+             padding: 1px;
+         }
+
+         main div#contact h2 {
+             width: 100%;
+             height: 46px;
+             font-family: Montserrat;
+             font-weight: bold;
+             font-size: 34px;
+             letter-spacing: 0.02em;
+             line-height: 46px;
+             text-align: center;
+             color: #391e88;
+             margin: 75px auto 0;
+         }
+
+         main div#contact h3 {
+             width: 100%;
+             height: 18px;
+             font-family: "Hiragino Sans";
+             font-weight: normal;
+             font-size: 14px;
+             letter-spacing: 0.05em;
+             line-height: 32px;
+             text-align: center;
+             color: #391e88;
+             margin: 0 auto 30px;
+         }
+
+         main div#contact p {
+             width: 100%;
+             height: 20px;
+             font-family: "Hiragino Sans";
+             font-weight: normal;
+             font-size: 15px;
+             letter-spacing: 0.05em;
+             line-height: 32px;
+             text-align: center;
+             color: #333;
+             margin: 30px auto;
+         }
+
+         main div#contact a {
+             margin: 0 auto;
+         }
+
+          /*============================
+#topfooter
+============================*/
+          footer#topfooter {
+              width: 100%;
+              height: 173px;
+              background: #120e19;
+              margin: 0 auto;
+              padding: 1px;
+          }
+
+          footer#topfooter nav {
+              width: 100%;
+              height: 18px;
+              margin: 59px 0 22px;
+          }
+
+          footer#topfooter nav ul {
+              display: flex;
+              flex-wrap: nowrap;
+              justify-content: center;
+              width: 100%;
+              height: 100%;
+              padding-left: 0;
+          }
+
+          footer#topfooter nav ul li {
+              display: block;
+              margin: 0 10px 0;
+          }
+
+          footer#topfooter nav ul li a {
+              height: 18px;
+              font-family: Montserrat;
+              font-weight: bold;
+              font-size: 14px;
+              line-height: 15px;
+              text-align: center;
+              color: #fff;
+          }
+
+          footer#topfooter p {
+              width: 100%;
+              height: 12px;
+              font-family: Montserrat;
+              font-weight: normal;
+              font-size: 10px;
+              letter-spacing: 0.05em;
+              line-height: 12px;
+              text-align: center;
+              color: #a798b7;
+          }
+
+}
+@media screen and (min-width:700px) and (max-width:1139px) {
+   body {
+       margin: 0;
+       padding: 0;
+   }
+
+   /*============================
+#tophead
+============================*/
+   header#tophead {
+       width: 100%;
+       height: 190px;
+       background-image: url("../photos/top/top-SP/hero.jpg");
+       background-position: center;
+       background-size: cover;
+       margin: 0 auto;
+       padding: 1px;
+   }
+
+   /*============================
+#head-content
+============================*/
+   header#tophead div#head-content {
+       position: relative;
+       display: flex;
+       width: 100%;
+       height: 64px;
+   }
+
+  header#tophead div#head-content a#logo-link {
+      display: block;
+      width: 160px;
+      height: 18px;
+      margin: 21px 0 0 0;
+  }
+
+  header#tophead div#head-content a#logo-link picture {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+  }
+
+  header#tophead div#head-content a#logo-link picture source {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+
+  header#tophead div#head-content a#logo-link picture img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+
+   header#tophead div#head-content nav {
+      display: none;
+   }
+
+  /*ここからハンバーガーデザイン*/
+
+  div#SP-hum {
+      position: absolute;
+      top: 12px;
+      right: 15px;
+      width: 44px;
+      height: 44px;
+      z-index: 100;
+  }
+
+  div#SP-hum span {
+      position: absolute;
+      display: block;
+      width: 31px;
+      height: 2px;
+      background-color: #FFFFFF;
+      border-radius: 1px;
+      transition: all .3s;
+  }
+
+  div#SP-hum span:nth-child(1) {
+      top: 15px;
+      left: 6.5px;
+  }
+
+  div#SP-hum span:nth-child(2) {
+      top: 22px;
+      left: 6.5px;
+  }
+
+  div#SP-hum span:nth-child(3) {
+      top: 29px;
+      left: 6.5px;
+  }
+
+  div#SP-hum span#span1.active {
+      top: 22px;
+      left: 6.5px;
+      transform: rotate(225deg);
+  }
+
+  div#SP-hum span#span2.active {
+      display: none;
+  }
+
+  div#SP-hum span#span3.active {
+      top: 22px;
+      left: 6.5px;
+      transform: rotate(-225deg);
+  }
+
+  nav#SP-menu {
+      position: fixed;
+      align-items: center;
+      display: flex;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #642390;
+      transition: all .3s;
+      transform: translateX(100vw);
+      z-index: 99;
+  }
+
+  nav#SP-menu ul {
+      width: 100%;
+      height: auto;
+      padding: 0;
+  }
+
+  nav#SP-menu ul li {
+      list-style: none;
+  }
+
+  nav#SP-menu ul li a {
+      display: block;
+      width: 100%;
+      height: 40px;
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 15px;
+      letter-spacing: 0.05em;
+      line-height: 15px;
+      text-align: center;
+      color: #fff;
+
+  }
+
+  .fadein {
+      transform: translateX(0) !important;
+  }
+
+  /*ここまで*/
+   header#tophead h1 {
+       width: 100%;
+       height: 37px;
+       font-family: Montserrat;
+       font-weight: bold;
+       font-size: 40px;
+       letter-spacing: 0.05em;
+       line-height: 37px;
+       text-align: center;
+       color: #fff;
+       margin: 29px auto 0;
+       padding: 0;
+   }
+
+   header#tophead h2 {
+       width: 100%;
+       height: 17px;
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 13px;
+      letter-spacing: 0.05em;
+      line-height: 17px;
+      text-align: center;
+      color: #fff;
+       margin: 3px auto 0;
+   }
+
+   header#tophead #head-button {
+       display: block;
+       width: 220px;
+       height: 55px;
+       border-radius: 27.5px;
+       background: transparent;
+       border: 1px solid #fff;
+       text-decoration: none;
+       font-family: Montserrat;
+       font-weight: bold;
+       font-size: 15px;
+       letter-spacing: 0.05em;
+       line-height: 55px;
+       text-align: center;
+       color: #fff;
+       text-align: center;
+       margin: 47px auto 0;
+   }
+
+   a.link-button {
+       display: block;
+       width: 200px;
+       height: 54px;
+       border-radius: 27px;
+       background: linear-gradient(#7633a4 0%, #250d65 100%);
+       font-family: Montserrat;
+       font-weight: bold;
+       font-size: 14px;
+       letter-spacing: 0.05em;
+       line-height: 54px;
+       text-align: center;
+       color: #fff;
+   }
+
+    main div#page-position {
+        width: 100%;
+        min-height: 25px;
+        background: #f7f7f7;
+        margin: 0 auto;
+    }
+
+    main div#page-position span {
+        height: auto;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 11px;
+        letter-spacing: 0.05em;
+        line-height: 25px;
+        text-align: left;
+        color: #333;
+        margin: 0 0 0 20px;
+    }
+
+   /*============================
+#contact
+============================*/
+   main div#contact {
+       width: 100%;
+       height: auto;
+       background: #f7f7f7;
+       padding: 1px;
+       margin: 40px auto 0;
+   }
+
+   main div#contact h2 {
+       width: 100%;
+       height: 46px;
+       font-family: Montserrat;
+       font-weight: bold;
+       font-size: 34px;
+       letter-spacing: 0.02em;
+       line-height: 46px;
+       text-align: center;
+       color: #391e88;
+       margin: 75px auto 0;
+   }
+
+   main div#contact h3 {
+       width: 100%;
+       height: 18px;
+       font-family: "Hiragino Sans";
+       font-weight: normal;
+       font-size: 14px;
+       letter-spacing: 0.05em;
+       line-height: 32px;
+       text-align: center;
+       color: #391e88;
+       margin: 0 auto 30px;
+   }
+
+   main div#contact p {
+       width: 253px;
+       height: auto;
+       font-family: "Hiragino Sans";
+       font-weight: normal;
+       font-size: 15px;
+       letter-spacing: 0.05em;
+       line-height: 32px;
+       text-align: center;
+       color: #333;
+       margin: 26px auto 28px;
+   }
+
+   main div#contact a {
+       margin: 0 auto 60px;
+   }
+
+
+   /*============================
+#topfooter
+============================*/
+   footer#topfooter {
+       width: 100%;
+       height: 213px;
+       background: #120e19;
+       margin: 0 auto;
+       padding: 1px;
+   }
+
+   footer#topfooter nav {
+       width: 100%;
+       height: auto;
+       margin: 59px 0 22px;
+   }
+
+   footer#topfooter nav ul {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: left;
+       width: 320px;
+       height: 100%;
+       padding-left: 0;
+       margin: 0 20px 0;
+   }
+
+   footer#topfooter nav ul li {
+       display: block;
+       margin: 0 10px 0;
+   }
+
+   footer#topfooter nav ul li a {
+       height: 18px;
+       font-family: Montserrat;
+       font-weight: bold;
+       font-size: 14px;
+       line-height: 15px;
+       text-align: center;
+       color: #fff;
+   }
+
+   footer#topfooter p {
+       width: 100%;
+       height: 12px;
+       font-family: Montserrat;
+       font-weight: normal;
+       font-size: 10px;
+       letter-spacing: 0.05em;
+       line-height: 12px;
+       text-align: center;
+       color: #a798b7;
+   }
+}
+@media screen and (min-width:0px) and (max-width:699px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+     /*============================
+#tophead
+============================*/
+     header#tophead {
+         width: 100%;
+         height: 190px;
+         background-image: url("../photos/top/top-SP/hero.jpg");
+         background-position: center;
+         background-size: cover;
+         margin: 0 auto;
+         padding: 1px;
+     }
+
+     /*============================
+#head-content
+============================*/
+     header#tophead div#head-content {
+         position: relative;
+         display: flex;
+         width: 100%;
+         height: 64px;
+     }
+
+   header#tophead div#head-content a#logo-link {
+       display: block;
+       width: 160px;
+       height: 18px;
+       margin: 21px 0 0 21px;
+   }
+
+   header#tophead div#head-content a#logo-link picture {
+       position: relative;
+       display: block;
+       width: 100%;
+       height: 100%;
+   }
+
+   header#tophead div#head-content a#logo-link picture source {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+
+   header#tophead div#head-content a#logo-link picture img {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+
+     header#tophead div#head-content nav {
+         display: none;
+     }
+
+     /*ここからハンバーガーデザイン*/
+
+    div#SP-hum {
+         position: absolute;
+         top: 12px;
+         right: 15px;
+         width: 44px;
+         height: 44px;
+         z-index: 100;
+     }
+
+     div#SP-hum span {
+         position: absolute;
+         display: block;
+         width: 31px;
+         height: 2px;
+         background-color: #FFFFFF;
+         border-radius: 1px;
+         transition: all .3s;
+     }
+
+     div#SP-hum span:nth-child(1) {
+         top: 15px;
+         left: 6.5px;
+     }
+
+     div#SP-hum span:nth-child(2) {
+         top: 22px;
+         left: 6.5px;
+     }
+
+     div#SP-hum span:nth-child(3) {
+         top: 29px;
+         left: 6.5px;
+     }
+
+     div#SP-hum span#span1.active {
+         top: 22px;
+         left: 6.5px;
+         transform: rotate(225deg);
+     }
+
+     div#SP-hum span#span2.active {
+         display: none;
+     }
+
+     div#SP-hum span#span3.active {
+         top: 22px;
+         left: 6.5px;
+         transform: rotate(-225deg);
+     }
+
+     nav#SP-menu {
+         position: fixed;
+         align-items: center;
+         display: flex;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background-color: #642390;
+         transition: all .3s;
+         transform: translateX(100vw);
+         z-index: 99;
+     }
+
+     nav#SP-menu ul {
+         width: 100%;
+         height: auto;
+         padding: 0;
+     }
+
+     nav#SP-menu ul li {
+         list-style: none;
+     }
+
+     nav#SP-menu ul li a {
+         display: block;
+         width: 100%;
+         height: 40px;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 15px;
+         letter-spacing: 0.05em;
+         line-height: 15px;
+         text-align: center;
+         color: #fff;
+
+     }
+
+     .fadein {
+         transform: translateX(0) !important;
+     }
+
+     /*ここまで*/
+     header#tophead h1 {
+         width: 100%;
+         height: 37px;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 40px;
+         letter-spacing: 0.05em;
+         line-height: 37px;
+         text-align: center;
+         color: #fff;
+         margin: 29px auto 0;
+         padding: 0;
+     }
+
+     header#tophead h2 {
+         width: 100%;
+         height: 17px;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 13px;
+         letter-spacing: 0.05em;
+         line-height: 17px;
+         text-align: center;
+         color: #fff;
+         margin: 3px auto 0;
+     }
+
+     header#tophead #head-button {
+         display: block;
+         width: 220px;
+         height: 55px;
+         border-radius: 27.5px;
+         background: transparent;
+         border: 1px solid #fff;
+         text-decoration: none;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 15px;
+         letter-spacing: 0.05em;
+         line-height: 55px;
+         text-align: center;
+         color: #fff;
+         text-align: center;
+         margin: 47px auto 0;
+     }
+
+
+      a.link-button {
+          display: block;
+          width: 200px;
+          height: 54px;
+          border-radius: 27px;
+          background: linear-gradient(#7633a4 0%, #250d65 100%);
+          font-family: Montserrat;
+          font-weight: bold;
+          font-size: 14px;
+          letter-spacing: 0.05em;
+          line-height: 54px;
+          text-align: center;
+          color: #fff;
+      }
+
+       main div#page-position {
+           width: 100%;
+           min-height: 25px;
+           background: #f7f7f7;
+           margin: 0 auto;
+       }
+
+       main div#page-position span {
+           height: auto;
+           font-family: Montserrat;
+           font-weight: normal;
+           font-size: 11px;
+           letter-spacing: 0.05em;
+           line-height: 25px;
+           text-align: left;
+           color: #333;
+           margin: 0 0 0 20px;
+       }
+
+
+       /*============================
+#contact
+============================*/
+       main div#contact {
+           width: 100%;
+           height: auto;
+           background: #f7f7f7;
+           padding: 1px;
+           margin: 40px auto 0;
+       }
+
+       main div#contact h2 {
+           width: 100%;
+           height: 46px;
+           font-family: Montserrat;
+           font-weight: bold;
+           font-size: 34px;
+           letter-spacing: 0.02em;
+           line-height: 46px;
+           text-align: center;
+           color: #391e88;
+           margin: 75px auto 0;
+       }
+
+       main div#contact h3 {
+           width: 100%;
+           height: 18px;
+           font-family: "Hiragino Sans";
+           font-weight: normal;
+           font-size: 14px;
+           letter-spacing: 0.05em;
+           line-height: 32px;
+           text-align: center;
+           color: #391e88;
+           margin: 0 auto 30px;
+       }
+
+       main div#contact p {
+           width: 253px;
+           height: auto;
+           font-family: "Hiragino Sans";
+           font-weight: normal;
+           font-size: 15px;
+           letter-spacing: 0.05em;
+           line-height: 32px;
+           text-align: center;
+           color: #333;
+           margin: 26px auto 28px;
+       }
+
+       main div#contact a {
+           margin: 0 auto 60px;
+       }
+
+       /*============================
+#topfooter
+============================*/
+       footer#topfooter {
+           width: 100%;
+           height: 213px;
+           background: #120e19;
+           margin: 0 auto;
+           padding: 1px;
+       }
+
+       footer#topfooter nav {
+           width: 100%;
+           height: auto;
+           margin: 59px 0 22px;
+       }
+
+       footer#topfooter nav ul {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: left;
+           width: 320px;
+           height: 100%;
+           padding-left: 0;
+           margin: 0 20px 0;
+       }
+
+       footer#topfooter nav ul li {
+           display: block;
+           margin: 0 10px 0;
+       }
+
+       footer#topfooter nav ul li a {
+           height: 18px;
+           font-family: Montserrat;
+           font-weight: bold;
+           font-size: 14px;
+           line-height: 15px;
+           text-align: center;
+           color: #fff;
+       }
+
+       footer#topfooter p {
+           width: 100%;
+           height: 12px;
+           font-family: Montserrat;
+           font-weight: normal;
+           font-size: 10px;
+           letter-spacing: 0.05em;
+           line-height: 12px;
+           text-align: center;
+           color: #a798b7;
+       }
+
+
+}

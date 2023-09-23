@@ -1,0 +1,603 @@
+@media screen and (min-width:1140px) {
+    main {
+        width: 100%;
+        height: auto;
+}
+
+    /*============================
+#top-content
+============================*/
+    main div#top-content { 
+        width: 910px;
+        height: auto;
+        margin: 62px auto 0;
+    }
+
+    main div#top-content dl {
+        display: block;
+        width: 100%;
+        min-height: 22px;
+        height: auto;
+        margin: 0 0 16px 0;
+    }
+
+    main div#top-content dl a {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    main div#top-content dl a dd.dd1{
+        display: block;
+        height: 22px;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.1em;
+        line-height: 22px;
+        text-align: center;
+        color: #333;
+        margin: 0 20px 0 0;
+    }
+
+    main div#top-content dl a dd.dd2 {
+        display: block;
+        width: 82px;
+        height: 22px;
+        border-radius: 11px;
+        background: #e8e8e8;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        line-height: 22px;
+        text-align: center;
+        color: #333;
+         margin: 0 20px 0 0;
+    }
+
+     main div#top-content dl a dd.dd3 {
+        display: block;
+        width: 536px;
+        min-height: 22px;
+        height: auto;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 22px;
+        text-align: left;
+        color: #333;
+
+     }
+
+    /*============================
+#buttom-content
+============================*/
+    main div#buttom-content {
+        width: 910px;
+        height: auto;
+        margin: 15px auto 0;
+    }
+
+    main div#buttom-content dl {
+        display: flex;
+         min-height: 22px;
+         height: auto;
+    }
+
+    main div#buttom-content dl dd.dd1 {
+         display: block;
+         height: 22px;
+         font-family: Montserrat;
+         font-weight: normal;
+         font-size: 15px;
+         letter-spacing: 0.1em;
+         line-height: 22px;
+         text-align: center;
+         color: #333;
+         margin: 0 20px 0 0;
+    }
+
+     main div#buttom-content dl dd.dd2 {
+        display: block;
+        width: 82px;
+        height: 22px;
+        border-radius: 11px;
+        background: #e8e8e8;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        line-height: 22px;
+        text-align: center;
+        color: #333;
+        margin: 0 20px 0 0;
+     }
+
+      main div#buttom-content dl dd.dd3 {
+         display: block;
+         width: 536px;
+         min-height: 22px;
+         height: auto;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 15px;
+         letter-spacing: 0.05em;
+         line-height: 22px;
+         text-align: left;
+         color: #333;
+      }
+
+      /*============================
+#page-select
+============================*/
+      main div#page-select {
+        display: flex;
+        justify-content: space-between;
+        width: 155px;
+        height: 45px;
+        background: transparent;
+        margin: 40px auto 110px;
+      }
+
+      /*============================
+#page1
+============================*/
+      main div#page-select a#page1 {
+        display: block;
+        width: 45px;
+        height: 45px;
+        border-radius: 22.5px;
+        background: #f1ebf8;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 0.05em;
+        line-height: 45px;
+        text-align: center;
+        color: #4f31a5;
+
+      }
+
+      /*============================
+#page2
+============================*/
+      main div#page-select a#page2 {
+        display: block;
+        width: 45px;
+        height: 45px;
+        border-radius: 22.5px;
+        background: linear-gradient(#7633a4 0%, #250d65 100%);
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 0.05em;
+        line-height: 45px;
+        text-align: center;
+        color: #fff;
+      }
+
+      /*============================
+#page3
+============================*/
+      main div#page-select a#page3 {
+          display: block;
+          width: 45px;
+          height: 45px;
+          border-radius: 22.5px;
+          background: linear-gradient(#7633a4 0%, #250d65 100%);
+          font-family: Montserrat;
+          font-weight: bold;
+          font-size: 20px;
+          letter-spacing: 0.05em;
+          line-height: 45px;
+          text-align: center;
+          color: #fff;
+      }
+
+
+}
+@media screen and (min-width:700px) and (max-width:1139px) {
+     main {
+         width: 100%;
+         height: auto;
+     }
+
+     /*============================
+#top-content
+============================*/
+     main div#top-content {
+         width: 600px;
+         height: auto;
+         margin: 40px auto 0;
+     }
+
+     main div#top-content dl {
+        display: block;
+         width: 100%;
+         min-height: 22px;
+         height: auto;
+         margin: 0 0 16px 0;
+     }
+
+      main div#top-content dl a {
+          display: flex;
+          width: 100%;
+          height: 100%;
+      }
+
+
+     main div#top-content dl a dd.dd1 {
+         display: block;
+         height: 22px;
+         font-family: Montserrat;
+         font-weight: normal;
+         font-size: 15px;
+         letter-spacing: 0.1em;
+         line-height: 22px;
+         text-align: center;
+         color: #333;
+         margin: 0 20px 0 0;
+     }
+
+     main div#top-content dl a dd.dd2 {
+         display: block;
+         width: 82px;
+         height: 22px;
+         border-radius: 11px;
+         background: #e8e8e8;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 12px;
+         letter-spacing: 0.05em;
+         line-height: 22px;
+         text-align: center;
+         color: #333;
+         margin: 0 20px 0 0;
+     }
+
+     main div#top-content dl a dd.dd3 {
+         display: block;
+         width: 536px;
+         min-height: 22px;
+         height: auto;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 15px;
+         letter-spacing: 0.05em;
+         line-height: 22px;
+         text-align: left;
+         color: #333;
+
+     }
+
+     /*============================
+#buttom-content
+============================*/
+     main div#buttom-content {
+         width: 600px;
+         height: auto;
+         margin: 15px auto 0;
+     }
+
+     main div#buttom-content dl {
+         display: flex;
+         min-height: 22px;
+         height: auto;
+     }
+
+     main div#buttom-content dl dd.dd1 {
+         display: block;
+         height: 22px;
+         font-family: Montserrat;
+         font-weight: normal;
+         font-size: 15px;
+         letter-spacing: 0.1em;
+         line-height: 22px;
+         text-align: center;
+         color: #333;
+         margin: 0 20px 0 0;
+     }
+
+     main div#buttom-content dl dd.dd2 {
+         display: block;
+         width: 82px;
+         height: 22px;
+         border-radius: 11px;
+         background: #e8e8e8;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 12px;
+         letter-spacing: 0.05em;
+         line-height: 22px;
+         text-align: center;
+         color: #333;
+         margin: 0 20px 0 0;
+     }
+
+     main div#buttom-content dl dd.dd3 {
+         display: block;
+         width: 536px;
+         min-height: 22px;
+         height: auto;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 15px;
+         letter-spacing: 0.05em;
+         line-height: 22px;
+         text-align: left;
+         color: #333;
+     }
+
+     /*============================
+#page-select
+============================*/
+     main div#page-select {
+         display: flex;
+         justify-content: space-between;
+         width: 155px;
+         height: 45px;
+         background: transparent;
+         margin: 40px auto 110px;
+     }
+
+     /*============================
+#page1
+============================*/
+     main div#page-select a#page1 {
+         display: block;
+         width: 45px;
+         height: 45px;
+         border-radius: 22.5px;
+         background: #f1ebf8;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 20px;
+         letter-spacing: 0.05em;
+         line-height: 45px;
+         text-align: center;
+         color: #4f31a5;
+
+     }
+
+     /*============================
+#page2
+============================*/
+     main div#page-select a#page2 {
+         display: block;
+         width: 45px;
+         height: 45px;
+         border-radius: 22.5px;
+         background: linear-gradient(#7633a4 0%, #250d65 100%);
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 20px;
+         letter-spacing: 0.05em;
+         line-height: 45px;
+         text-align: center;
+         color: #fff;
+     }
+
+     /*============================
+#page3
+============================*/
+     main div#page-select a#page3 {
+         display: block;
+         width: 45px;
+         height: 45px;
+         border-radius: 22.5px;
+         background: linear-gradient(#7633a4 0%, #250d65 100%);
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 20px;
+         letter-spacing: 0.05em;
+         line-height: 45px;
+         text-align: center;
+         color: #fff;
+     }
+
+}
+@media screen and (min-width:0px) and (max-width:699px) {
+     main {
+         width: 100%;
+         height: auto;
+     }
+
+     /*============================
+#top-content
+============================*/
+     main div#top-content {
+         width: 335px;
+         height: auto;
+         margin: 40px auto 0;
+     }
+
+     main div#top-content dl {
+        display: block;
+         width: 100%;
+         min-height: 22px;
+         height: auto;
+         margin: 0 0 16px 0;
+     }
+
+      main div#top-content dl a {
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+          height: 100%;
+      }
+
+
+     main div#top-content dl a dd.dd1 {
+         display: block;
+         height: 22px;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.1em;
+        line-height: 22px;
+        text-align: center;
+        color: #333;
+         margin: 0 20px 0 0;
+     }
+
+     main div#top-content dl a dd.dd2 {
+         display: block;
+         width: 82px;
+         height: 22px;
+         border-radius: 11px;
+         background: #e8e8e8;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 12px;
+         letter-spacing: 0.05em;
+         line-height: 22px;
+         text-align: center;
+         color: #333;
+         margin: 0 20px 0 0;
+     }
+
+     main div#top-content dl a dd.dd3 {
+         display: block;
+         width: 100%;
+         min-height: 22px;
+         height: auto;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 15px;
+         letter-spacing: 0.05em;
+         line-height: 22px;
+         text-align: left;
+         color: #333;
+         margin: 10px auto 0;
+     }
+
+     /*============================
+#buttom-content
+============================*/
+     main div#buttom-content {
+         width: 335px;
+         height: auto;
+         margin: 15px auto 0;
+     }
+
+     main div#buttom-content dl {
+         display: flex;
+         flex-wrap: wrap;
+         min-height: 22px;
+         height: auto;
+     }
+
+     main div#buttom-content dl dd.dd1 {
+         display: block;
+         height: 22px;
+         font-family: Montserrat;
+         font-weight: normal;
+         font-size: 15px;
+         letter-spacing: 0.1em;
+         line-height: 22px;
+         text-align: center;
+         color: #333;
+         margin: 0 20px 0 0;
+     }
+
+     main div#buttom-content dl dd.dd2 {
+         display: block;
+         width: 82px;
+         height: 22px;
+         border-radius: 11px;
+         background: #e8e8e8;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 12px;
+         letter-spacing: 0.05em;
+         line-height: 22px;
+         text-align: center;
+         color: #333;
+         margin: 0 20px 0 0;
+     }
+
+     main div#buttom-content dl dd.dd3 {
+         display: block;
+         width: 100%;
+         min-height: 22px;
+         height: auto;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 15px;
+         letter-spacing: 0.05em;
+         line-height: 22px;
+         text-align: left;
+         color: #333;
+         margin: 10px 0 0 0;
+     }
+
+     /*============================
+#page-select
+============================*/
+     main div#page-select {
+         display: flex;
+         justify-content: space-between;
+         width: 155px;
+         height: 45px;
+         background: transparent;
+         margin: 40px auto 80px;
+     }
+
+     /*============================
+#page1
+============================*/
+     main div#page-select a#page1 {
+         display: block;
+         width: 45px;
+         height: 45px;
+         border-radius: 22.5px;
+         background: #f1ebf8;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 20px;
+         letter-spacing: 0.05em;
+         line-height: 45px;
+         text-align: center;
+         color: #4f31a5;
+
+     }
+
+     /*============================
+#page2
+============================*/
+     main div#page-select a#page2 {
+         display: block;
+         width: 45px;
+         height: 45px;
+         border-radius: 22.5px;
+         background: linear-gradient(#7633a4 0%, #250d65 100%);
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 20px;
+         letter-spacing: 0.05em;
+         line-height: 45px;
+         text-align: center;
+         color: #fff;
+     }
+
+     /*============================
+#page3
+============================*/
+     main div#page-select a#page3 {
+         display: block;
+         width: 45px;
+         height: 45px;
+         border-radius: 22.5px;
+         background: linear-gradient(#7633a4 0%, #250d65 100%);
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 20px;
+         letter-spacing: 0.05em;
+         line-height: 45px;
+         text-align: center;
+         color: #fff;
+     }
+
+}

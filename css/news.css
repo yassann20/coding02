@@ -1,0 +1,499 @@
+@media screen and (min-width:1140px) {
+main {
+    width: 100%;
+    height: auto;  
+}
+
+main div {
+      width: 750px;
+      height: auto;
+      background: transparent;
+      margin: 70px auto 0;
+}
+
+main div h1 {
+    width: 100%;
+    height: auto;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    line-height: 44px;
+    text-align: left;
+    color: #333;
+    margin: 0 auto;
+}
+
+main div dl {
+    display: flex;
+    height: 22px;
+     margin: 10px 0 27px 0;
+}
+
+main div dl dd.data {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+    color: #333;
+   
+}
+
+main div dl dd.tag {
+    width: 82px;
+    height: 22px;
+    border-radius: 11px;
+    background: #e8e8e8;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    line-height: 22px;
+    text-align: center;
+    color: #333;
+    margin:  0 0 0 10px;
+}
+
+
+main div img{
+    display: block;
+    width: 750px;
+    height: 400px;
+}
+
+main div p {
+    width: 100%;
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 25px;
+    text-align: left;
+    color: #333;
+    margin: 30px auto;
+}
+
+main div h2::before{
+    position: absolute;
+    top: 0;
+    left: -25px;
+    content: "";
+    width: 6px;
+    height: 38px;
+    background: transparent;
+    background-color: #391e88;
+    border-radius: 3px;
+
+}
+
+main div h2 {
+    position: relative;
+    height: 38px;
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    line-height: 38px;
+    text-align: left;
+    color: #333;
+    margin: 0 0 0 25px;
+}
+
+main div h3 {
+    height: 24px;
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    text-align: left;
+    color: #333;
+    margin: 0 3px;
+}
+main div div#category{
+    width: 730px;
+    height: 130.5px;
+    margin: 40.5px auto 108px;
+}
+main div div#category div#topic {
+    display: flex;
+    width: 100%;
+    height: 94px;
+    border-top: solid 1px #B8AED5;
+}
+main div div#category div#topic a {
+    display: block;
+    width: 50%;
+    height: calc( 100% - 26px );
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 68px;
+    text-align: center;
+    color: #391e88;
+    margin: 13px 0;
+}
+
+main div div#category div#topic a:nth-child(1) {
+    border-right: solid 1px #B8AED5;
+}
+main div div#category div#news-top {
+    width: 100%;
+    height: 36.5px;
+    border-top: solid 1px #B8AED5;
+}
+
+main div div#category div#news-top a {
+    display: block;
+    width: 100%;
+    height: 19px;
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    line-height: 19px;
+    text-align: center;
+    color: #391e88;
+    margin: 17.5px auto 0;
+}
+}
+@media screen and (min-width:700px) and (max-width:1139px) {
+    main {
+        width: 100%;
+        height: auto;
+    }
+
+    main div {
+        width: 335px;
+        height: auto;
+        background: transparent;
+        margin: 40px auto 0;
+    }
+
+    main div h1 {
+        width: 100%;
+        height: auto;
+       font-family: Montserrat;
+       font-weight: normal;
+       font-size: 22px;
+       letter-spacing: 0.05em;
+       line-height: 34px;
+       text-align: left;
+       color: #333;
+        margin: 0 auto;
+    }
+
+    main div dl {
+        display: flex;
+        height: 22px;
+        margin: 48px 0 14px 0;
+    }
+
+    main div dl dd.data {
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 22px;
+        text-align: center;
+        color: #333;
+
+    }
+
+    main div dl dd.tag {
+        width: 82px;
+        height: 22px;
+        border-radius: 11px;
+        background: #e8e8e8;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        line-height: 22px;
+        text-align: center;
+        color: #333;
+        margin: 0 0 0 10px;
+    }
+
+
+    main div img{
+        display: block;
+        width: 335px;
+        height: 187px;
+        margin: 10px auto;
+    }
+
+    main div p {
+        width: 100%;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 24px;
+        text-align: left;
+        color: #333;
+        margin: 20px auto;
+    }
+
+    main div h2::before {
+        position: absolute;
+        top: 0;
+        left: -25px;
+        content: "";
+        width: 6px;
+        height: 24px;
+        background: transparent;
+        background-color: #391e88;
+        border-radius: 3px;
+
+    }
+
+    main div h2 {
+        position: relative;
+        height: 24px;
+       font-family: "Hiragino Sans";
+       font-weight: normal;
+       font-size: 18px;
+       letter-spacing: 0.02em;
+       line-height: 24px;
+       text-align: left;
+       color: #333;
+
+        margin: 0 0 0 25px;
+    }
+
+    main div h3 {
+        height: 21px;
+       font-family: "Hiragino Sans";
+       font-weight: normal;
+       font-size: 16px;
+       letter-spacing: 0.02em;
+       line-height: 21px;
+       text-align: left;
+       color: #333;
+        margin: 0 3px;
+    }
+
+    main div div#category {
+        width: 335px;
+        height: 130.5px;
+        margin: 40.5px auto 108px;
+    }
+
+    main div div#category div#topic {
+        display: flex;
+        width: 100%;
+        height: 94px;
+        border-top: solid 1px #B8AED5;
+    }
+
+    main div div#category div#topic a {
+        display: block;
+        width: 50%;
+        height: 94px;
+        height: calc(100% - 26px);
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        line-height: 18px;
+        text-align: left;
+        color: #391e88;
+        padding: 10px;
+        margin: 13px 0;
+    }
+
+    main div div#category div#topic a:nth-child(1) {
+        border-right: solid 1px #B8AED5;
+    }
+
+    main div div#category div#news-top {
+        width: 100%;
+        height: 36.5px;
+        border-top: solid 1px #B8AED5;
+    }
+
+    main div div#category div#news-top a {
+        display: block;
+        width: 100%;
+        height: 19px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.08em;
+        line-height: 19px;
+        text-align: center;
+        color: #391e88;
+        margin: 17.5px auto 0;
+    }
+}
+@media screen and (min-width:0px) and (max-width:699px) {
+     main {
+         width: 100%;
+         height: auto;
+     }
+
+     main div {
+         width: 335px;
+         height: auto;
+         background: transparent;
+         margin: 40px auto 0;
+     }
+
+     main div h1 {
+         width: 100%;
+         height: auto;
+         font-family: Montserrat;
+         font-weight: normal;
+         font-size: 22px;
+         letter-spacing: 0.05em;
+         line-height: 34px;
+         text-align: left;
+         color: #333;
+         margin: 0 auto;
+     }
+
+     main div dl {
+         display: flex;
+         height: 22px;
+         margin: 48px 0 14px 0;
+     }
+
+     main div dl dd.data {
+         font-family: Montserrat;
+         font-weight: normal;
+         font-size: 13px;
+         line-height: 22px;
+         text-align: center;
+         color: #333;
+
+     }
+
+     main div dl dd.tag {
+         width: 82px;
+         height: 22px;
+         border-radius: 11px;
+         background: #e8e8e8;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 12px;
+         letter-spacing: 0.05em;
+         line-height: 22px;
+         text-align: center;
+         color: #333;
+         margin: 0 0 0 10px;
+     }
+
+
+     main div img {
+         display: block;
+         width: 335px;
+         height: 187px;
+         margin: 10px auto;
+     }
+
+     main div p {
+         width: 100%;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 14px;
+         letter-spacing: 0.05em;
+         line-height: 24px;
+         text-align: left;
+         color: #333;
+         margin: 20px auto;
+     }
+
+     main div h2::before {
+         position: absolute;
+         top: 0;
+         left: -25px;
+         content: "";
+         width: 6px;
+         height: 24px;
+         background: transparent;
+         background-color: #391e88;
+         border-radius: 3px;
+
+     }
+
+     main div h2 {
+         position: relative;
+         height: 24px;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 18px;
+         letter-spacing: 0.02em;
+         line-height: 24px;
+         text-align: left;
+         color: #333;
+
+         margin: 0 0 0 25px;
+     }
+
+     main div h3 {
+         height: 21px;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 16px;
+         letter-spacing: 0.02em;
+         line-height: 21px;
+         text-align: left;
+         color: #333;
+         margin: 0 3px;
+     }
+
+     main div div#category {
+         width: 335px;
+         height: 130.5px;
+         margin: 40.5px auto 108px;
+     }
+
+     main div div#category div#topic {
+         display: flex;
+         width: 100%;
+         height: 94px;
+         border-top: solid 1px #B8AED5;
+     }
+
+     main div div#category div#topic a {
+         display: block;
+         width: 50%;
+         height: 94px;
+         height: calc(100% - 26px);
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 12px;
+         letter-spacing: 0.05em;
+         line-height: 18px;
+         text-align: left;
+         color: #391e88;
+         padding: 10px;
+         margin: 13px 0;
+     }
+
+     main div div#category div#topic a:nth-child(1) {
+         border-right: solid 1px #B8AED5;
+     }
+
+     main div div#category div#news-top {
+         width: 100%;
+         height: 36.5px;
+         border-top: solid 1px #B8AED5;
+     }
+
+     main div div#category div#news-top a {
+         display: block;
+         width: 100%;
+         height: 19px;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 14px;
+         letter-spacing: 0.08em;
+         line-height: 19px;
+         text-align: center;
+         color: #391e88;
+         margin: 17.5px auto 0;
+     }
+}

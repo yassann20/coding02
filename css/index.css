@@ -1,0 +1,2470 @@
+/*
+Theme Name: codingtest2
+Theme URL: テーマのサイトのURI
+Description: テーマの説明
+Author: Kaisei Yasuzaki
+Version: 1.0.0
+Tags: テーマの特徴を表すタグ（カンマ区切り/オプション）
+License: GNU General Public License v2 or later
+License URI: LICENSE
+*/
+@media screen and (min-width:1140px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*============================
+#tophead
+============================*/
+    header#tophead {
+        width: 1440px;
+        height: 768px;
+        background-image: url("../photos/top/top-PC/hero.jpg");
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+        padding: 1px;
+    }
+
+    /*============================
+#head-content
+============================*/
+    header#tophead div#head-content {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 86px;
+    }
+
+    header#tophead div#head-content a{
+        display: block;
+        width: 160px;
+        height: 18px;
+        margin: 34px 0 0 30px;
+    }
+
+    header#tophead div#head-content a picture {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    header#tophead div#head-content a picture source {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    header#tophead div#head-content a picture img {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+    }
+
+    header#tophead div#head-content nav {
+        width: auto;
+        height: 100%;
+    }
+
+    header#tophead div#head-content nav ul {
+        position: absolute;
+        right: 17.5px;
+        display: flex;
+        padding-left: 0;
+    }
+
+    header#tophead div#head-content nav ul li {
+        list-style: none;
+        margin: 34px 12.5px;
+    }
+
+    header#tophead div#head-content nav ul li a {
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 15px;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    header#tophead h1 {
+        width: 100%;
+        height: 88px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 72px;
+        letter-spacing: 0.05em;
+        line-height: 88px;
+        text-align: left;
+        color: #fff;
+        margin: 180px 0 0 0;
+        text-align: center;
+    }
+
+    header#tophead h2 {
+        width: 100%;
+        height: 32px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 24px;
+        letter-spacing: 0.1em;
+        line-height: 32px;
+        text-align: left;
+        color: #fff;
+        text-shadow: 0px 3px 6px rgba(153, 38, 196, 0.16);
+        margin: 15px 0 0 0;
+        text-align: center;
+    }
+
+    header#tophead #head-button {
+        display: block;
+        width: 220px;
+        height: 55px;
+        border-radius: 27.5px;
+        background: transparent;
+        border: 1px solid #fff;
+        text-decoration: none;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 55px;
+        text-align: center;
+        color: #fff;
+        text-align: center;
+        margin: 47px auto 0;
+    }
+
+    nav#SP-menu{
+        display: none;
+    }
+
+    main {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    main div {
+        width: 100%;
+        height: auto;
+    }
+
+    a.link-button {
+        display: block;
+        width: 200px;
+        height: 54px;
+        border-radius: 27px;
+        background: linear-gradient(#7633a4 0%, #250d65 100%);
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 54px;
+        text-align: center;
+        color: #fff;
+    }
+
+    /*============================
+#content1
+============================*/
+    main div div#content1 {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 917px;
+        height: 97px;
+        margin: 70px auto 140px;
+    }
+
+    main div div#content1 div {
+        width: 170px;
+        height: 100%;
+    }
+
+    main div div#content1 div h2 {
+        width: 100%;
+        height: 44px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 36px;
+        letter-spacing: 0.02em;
+        line-height: 44px;
+        text-align: left;
+        color: #391e88;
+        margin: 0;
+    }
+
+    main div div#content1 div h3 {
+        width: 165px;
+        height: 17px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        line-height: 17px;
+        text-align: left;
+        color: #391e88;
+        margin: 0 auto 0;
+    }
+
+    main div div#content1 article {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 747px;
+        height: 97px;
+    }
+
+    main div div#content1 article article {
+        width: 100%;
+        height: 22px;
+    }
+
+    main div div#content1 article article a{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 100%;
+    }
+
+    main div div#content1 article article a dd.data {
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.1em;
+        line-height: 22px;
+        text-align: center;
+        color: #333;
+
+    }
+
+    main div div#content1 article article a dd.tag {
+        width: 82px;
+        height: 22px;
+        border-radius: 11px;
+        background: #e8e8e8;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        line-height: 22px;
+        text-align: center;
+        color: #333;
+        margin: 0 20px 0;
+    }
+
+    main div div#content1 article article a dd.ddtext {
+        height: 22px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 22px;
+        text-align: left;
+        color: #333;
+    }
+
+    /*============================
+#content2
+============================*/
+    main div div#content2 {
+        width: 1110px;
+        height: 501px;
+        margin: 140px auto 0;
+    }
+
+    main div div#content2 h2 {
+        width: 100%;
+        height: 44px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        line-height: 44px;
+        text-align: center;
+        color: #391e88;
+
+    }
+
+    main div div#content2 h3 {
+        width: 100%;
+        height: 17px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        line-height: 17px;
+        text-align: center;
+        color: #391e88;
+
+    }
+
+    main div div#content2 #flexconetnt-c2 {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 100%;
+        height: 328px;
+        padding: 1px;
+    }
+
+    main div div#content2 div div {
+        width: 350px;
+        height: 330px;
+    }
+
+    main div div#content2 div div picture {}
+
+    main div div#content2 div div picture source {}
+
+    main div div#content2 div div picture img {}
+
+    main div div#content2 div div h3 {
+        width: 100%;
+        height: 24px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: 0.05em;
+        line-height: 24px;
+        text-align: center;
+        color: #333;
+        margin: 22px auto 17px;
+    }
+
+    main div div#content2 div div p {
+        height: 100%;
+        height: 47px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 27px;
+        text-align: left;
+        color: #333;
+
+    }
+
+   main div div#content2 a{
+      margin: 30px auto 0;
+   }
+    /*============================
+#content3
+============================*/
+    main div div#content3 {
+        display: flex;
+        width: 1261px;
+        height: 651px;
+        margin: 140px auto 40px;
+    }
+
+    /*============================
+#left-content
+============================*/
+    main div div#content3 div#left-content {
+        position: relative;
+        width: 424px;
+        height: 100%;
+        z-index: 1;
+    }
+
+    main div div#content3 div#left-content picture {
+        position: relative;
+        z-index: 3;
+    }
+
+    main div div#content3 div#left-content picture source {
+        display: block;
+        margin: 60px 0 81px;
+    }
+
+    main div div#content3 div#left-content picture img {}
+
+    main div div#content3 div#right-content {
+        position: relative;
+        width: 837px;
+        height: 100%;
+        background-color: #F0F0F0;
+        z-index: -1;
+    }
+
+    main div div#content3 div#right-content h2 {
+        width: 154px;
+        height: 44px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        line-height: 44px;
+        text-align: center;
+        color: #391e88;
+        margin: 213px 199px 0 484px;
+    }
+
+    main div div#content3 div#right-content h3 {
+        width: 58px;
+        height: 19px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 19px;
+        white-space: nowrap;
+        text-align: center;
+        color: #391e88;
+        margin: 2px 247px 0 532px;
+    }
+
+    main div div#content3 div#right-content p {
+        width: 430px;
+        height: 47px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 27px;
+        text-align: center;
+        color: #333;
+        margin: 28px 61px 25px 346px;
+    }
+
+    main div div#content3 div#right-content a {
+        margin-left: 461px;
+    }
+
+    /*============================
+#content4
+============================*/
+    main div div#content4 {
+        display: flex;
+        width: 1300px;
+        height: 615px;
+        margin: 40px auto 70px;
+    }
+
+    main div div#content4 div#left-content {
+        position: relative;
+        width: 218px;
+        height: 100%;
+    }
+
+    main div div#content4 div#center-content {
+        width: 864px;
+        height: 615px;
+        background-image: url("../photos/top/top-PC/bg-circle.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    main div div#content4 div#right-content {
+        position: relative;
+        width: 218px;
+        height: 100%;
+    }
+
+    main div div#content4 div#left-content picture:nth-child(1) {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    main div div#content4 div#left-content picture:nth-child(1) source {}
+
+    main div div#content4 div#left-content picture:nth-child(1) img {}
+
+    main div div#content4 div#left-content picture:nth-child(2) {
+        position: absolute;
+        top: 256px;
+        left: 146px;
+        display: block;
+        z-index: 10;
+    }
+
+    main div div#content4 div#left-content picture:nth-child(2) source {}
+
+    main div div#content4 div#left-content picture:nth-child(2) img {}
+
+    main div div#content4 div#center-content h2 {
+        width: 100%;
+        height: 44px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        line-height: 44px;
+        text-align: center;
+        color: #391e88;
+        margin: 138px auto 0;
+
+    }
+
+    main div div#content4 div#center-content h3 {
+        width: 100%;
+        height: 19px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 19px;
+        text-align: center;
+        color: #391e88;
+        margin: 0 auto 30px;
+    }
+
+    main div div#content4 div#center-content h4 {
+        width: 666px;
+        height: 53px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 40px;
+        letter-spacing: 0.05em;
+        line-height: 53px;
+        text-align: center;
+        color: #333;
+
+        border-bottom: 12px solid #F5F534;
+        margin: 0 auto 30px;
+    }
+
+    main div div#content4 div#center-content p {
+        width: 451px;
+        height: 127px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 27px;
+        text-align: center;
+        color: #333;
+        margin: 41px auto 30px;
+    }
+
+    main div div#content4 div#center-content a {
+        margin: 0 auto 0;
+    }
+
+    main div div#content4 div#right-content picture:nth-child(1) {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    main div div#content4 div#right-content picture:nth-child(1) source {}
+
+    main div div#content4 div#right-content picture:nth-child(1) img {}
+
+    main div div#content4 div#right-content picture:nth-child(2) {
+        position: absolute;
+        top: 256px;
+        right: 146px;
+    }
+
+    main div div#content4 div#right-content picture:nth-child(2) source {}
+
+    main div div#content4 div#right-content picture:nth-child(2) img {}
+
+    /*============================
+#content5
+============================*/
+    main div div#content5 {
+        display: flex;
+        width: 1110px;
+        height: 332px;
+        margin: 70px auto 110px;
+
+    }
+
+    main div div#content5 div {
+        width: 445px;
+        height: 332px;
+        background: #f7f7f7;
+        opacity: 0.85;
+    }
+
+    main div div#content5 div h2 {
+        width: 100%;
+        height: 48px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        line-height: 48px;
+        text-align: center;
+        color: #391e88;
+        margin: 66px auto 0;
+    }
+
+    main div div#content5 div h3 {
+        width: 100%;
+        height: 18px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 18px;
+        text-align: center;
+        color: #391e88;
+        margin: 0 auto 28px;
+    }
+
+    main div div#content5 div p {
+        width: 100%;
+        height: 15px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 28px;
+        text-align: center;
+        color: #333;
+        margin: 0 auto 28px;
+    }
+
+    main div div#content5 div a {
+        margin: 0 auto 0;
+    }
+
+    main div div#content5 picture {}
+
+    main div div#content5 picture source {}
+
+    main div div#content5 picture img {}
+
+    /*============================
+#contact
+============================*/
+    main div#contact {
+        width: 100%;
+        height: 356px;
+        background: #f7f7f7;
+        padding: 1px;
+    }
+
+    main div#contact h2 {
+        width: 100%;
+        height: 46px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 34px;
+        letter-spacing: 0.02em;
+        line-height: 46px;
+        text-align: center;
+        color: #391e88;
+        margin: 75px auto 0;
+    }
+
+    main div#contact h3 {
+        width: 100%;
+        height: 18px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 32px;
+        text-align: center;
+        color: #391e88;
+        margin: 0 auto 30px;
+    }
+
+    main div#contact p {
+        width: 100%;
+        height: 20px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 32px;
+        text-align: center;
+        color: #333;
+        margin: 30px auto;
+    }
+
+    main div#contact a {
+        margin: 0 auto;
+    }
+
+    /*============================
+#topfooter
+============================*/
+    footer#topfooter {
+        width: 100%;
+        height: 173px;
+        background: #120e19;
+        margin: 0 auto;
+        padding: 1px;
+    }
+
+    footer#topfooter nav {
+        width: 100%;
+        height: 18px;
+        margin: 59px 0 22px;
+    }
+
+    footer#topfooter nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+    }
+
+    footer#topfooter nav ul li {
+        display: block;
+        margin: 0 10px 0;
+    }
+
+    footer#topfooter nav ul li a {
+        height: 18px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 15px;
+        text-align: center;
+        color: #fff;
+    }
+
+    footer#topfooter p {
+        width: 100%;
+        height: 12px;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 10px;
+        letter-spacing: 0.05em;
+        line-height: 12px;
+        text-align: center;
+        color: #a798b7;
+    }
+
+}
+
+@media screen and (min-width:700px) and (max-width:1139px){
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*============================
+#tophead
+============================*/
+header#tophead {
+    width: 100%;
+    height: 812px;
+    background-image: url("../photos/top/top-SP/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+/*============================
+#head-content
+============================*/
+header#tophead div#head-content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 86px;
+}
+
+header#tophead div#head-content a {
+    display: block;
+    width: 160px;
+    height: 18px;
+    margin: 21px 0 0 0;
+}
+
+header#tophead div#head-content a picture {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+header#tophead div#head-content a picture source {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+}
+
+header#tophead div#head-content a picture img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+}
+
+header#tophead div#head-content nav {
+   display: none;
+}
+
+/*ここからハンバーガーデザイン*/
+
+div#SP-hum {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    width: 44px;
+    height: 44px;
+    z-index: 100;
+}
+
+div#SP-hum span {
+    position: absolute;
+    display: block;
+    width: 31px;
+    height: 2px;
+    background-color: #FFFFFF;
+    border-radius: 1px;
+    transition: all .3s;
+}
+
+div#SP-hum span:nth-child(1) {
+    top: 15px;
+    left: 6.5px;
+}
+
+div#SP-hum span:nth-child(2) {
+    top: 22px;
+    left: 6.5px;
+}
+
+div#SP-hum span:nth-child(3) {
+    top: 29px;
+    left: 6.5px;
+}
+
+div#SP-hum span#span1.active {
+    top: 22px;
+    left: 6.5px;
+    transform: rotate(225deg);
+}
+
+div#SP-hum span#span2.active {
+    display: none;
+}
+
+div#SP-hum span#span3.active {
+    top: 22px;
+    left: 6.5px;
+    transform: rotate(-225deg);
+}
+
+nav#SP-menu {
+    position: fixed;
+    align-items: center;
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #642390;
+    transition: all .3s;
+    transform: translateX(100vw);
+    z-index: 99;
+}
+
+nav#SP-menu ul {
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+nav#SP-menu ul li {
+    list-style: none;
+}
+
+nav#SP-menu ul li a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.fadein {
+    transform: translateX(0) !important;
+}
+
+/*ここまで*/
+
+header#tophead div#head-content nav ul {
+    position: absolute;
+    right: 17.5px;
+    display: flex;
+    padding-left: 0;
+}
+
+header#tophead div#head-content nav ul li {
+    list-style: none;
+    margin: 0 12.5px;
+}
+
+header#tophead div#head-content nav ul li a {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+header#tophead h1 {
+    width: 100%;
+    height: 93px;
+   font-family: Montserrat;
+   font-weight: bold;
+   font-size: 40px;
+   letter-spacing: 0.05em;
+   line-height: 44px;
+   text-align: left;
+   color: #fff;
+   margin: 220px auto 0;
+   padding: 0 20px;
+}
+
+header#tophead h2 {
+    width: 160px;
+    height: 50px;
+   font-family: "Hiragino Sans";
+   font-weight: normal;
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   line-height: 29px;
+   text-align: left;
+   color: #fff;
+   text-shadow: 0px 3px 6px rgba(153, 38, 196, 0.16);
+   margin: 17px 20px 0;
+}
+
+header#tophead #head-button {
+    display: block;
+    width: 220px;
+    height: 55px;
+    border-radius: 27.5px;
+    background: transparent;
+    border: 1px solid #fff;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 55px;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    margin: 47px auto 0;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+main div {
+    width: 100%;
+    height: auto;
+}
+
+a.link-button {
+    display: block;
+    width: 200px;
+    height: 54px;
+    border-radius: 27px;
+    background: linear-gradient(#7633a4 0%, #250d65 100%);
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 54px;
+    text-align: center;
+    color: #fff;
+}
+
+/*============================
+#content1
+============================*/
+main div div#content1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 375px;
+    height: auto;
+    margin: 70px auto 0;
+}
+
+main div div#content1 div {
+    width: 170px;
+    height: 100%;
+}
+
+main div div#content1 div h2 {
+    width: 100%;
+    height: 44px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 44px;
+    text-align: left;
+    color: #391e88;
+    margin: 0;
+}
+
+main div div#content1 div h3 {
+    width: 165px;
+    height: 17px;
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    line-height: 17px;
+    text-align: left;
+    color: #391e88;
+    margin: 0 auto 0;
+}
+
+main div div#content1 article {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 375px;
+    height: auto;
+}
+
+main div div#content1 article article {
+    width: 100%;
+    height: auto;
+    margin: 17.5px 0;
+}
+
+main div div#content1 article article a {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+}
+
+main div div#content1 article article a dd.data {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    line-height: 22px;
+    text-align: center;
+    color: #333;
+}
+
+main div div#content1 article article a dd.tag {
+    width: 82px;
+    height: 22px;
+    border-radius: 11px;
+    background: #e8e8e8;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    line-height: 22px;
+    text-align: center;
+    color: #333;
+    margin: 0 20px 0;
+}
+
+main div div#content1 article article a dd.ddtext {
+    width: 100%;
+    height: auto;
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 22px;
+    text-align: left;
+    color: #333;
+    margin: 10px auto 0;
+}
+
+/*============================
+#content2
+============================*/
+main div div#content2 {
+    width: 375px;
+    height: auto;
+    margin: 75px auto 0;
+}
+
+main div div#content2 h2 {
+    width: 100%;
+    height: 44px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    line-height: 44px;
+    text-align: center;
+    color: #391e88;
+
+}
+
+main div div#content2 h3 {
+    width: 100%;
+    height: 17px;
+   font-family: "Hiragino Sans";
+   font-weight: normal;
+   font-size: 13px;
+   letter-spacing: 0.05em;
+   line-height: 17px;
+   text-align: center;
+   color: #391e88;
+    margin: 2px auto 28px;
+}
+
+main div div#content2 #flexconetnt-c2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 1px;
+}
+
+main div div#content2 div div {
+    width: 350px;
+    height: 330px;
+    margin: 20px 0;
+}
+
+main div div#content2 div div picture {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 210px;
+}
+
+main div div#content2 div div picture source {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+main div div#content2 div div picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+main div div#content2 div div h3 {
+    width: 100%;
+    height: 24px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    text-align: center;
+    color: #333;
+    margin: 12px auto 10px;
+}
+
+main div div#content2 div div p {
+    height: 100%;
+    height: 47px;
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 27px;
+    text-align: left;
+    color: #333;
+
+}
+
+main div div#content2 a {
+   margin: 30px auto 40px;
+}
+
+
+/*============================
+#content3
+============================*/
+main div div#content3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 375px;
+    height: auto;
+    margin: 0 auto 40px;
+}
+
+/*============================
+#left-content
+============================*/
+main div div#content3 div#left-content {
+    position: relative;
+    width: 100%;
+    height: 115px;
+    z-index: 1;
+}
+
+main div div#content3 div#left-content picture {
+    position: absolute;
+    width: 325px;
+    height: 231px;
+    z-index: 3;
+    margin: 0 25px 0;
+}
+
+main div div#content3 div#left-content picture source {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+main div div#content3 div#left-content picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+main div div#content3 div#right-content {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #F0F0F0;
+    padding: 1px;
+    z-index: -1;
+}
+
+main div div#content3 div#right-content h2 {
+    width: 100%;
+    height: 44px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    line-height: 44px;
+    text-align: center;
+    color: #391e88;
+    margin: 156px auto 0;
+}
+
+main div div#content3 div#right-content h3 {
+    width: 100%;
+    height: 19px;
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 19px;
+    white-space: nowrap;
+    text-align: center;
+    color: #391e88;
+    margin: 2px auto 29px;
+}
+
+main div div#content3 div#right-content p {
+    width: calc( 100% - 100px );
+    height: auto;
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 27px;
+    text-align: center;
+    color: #333;
+    margin: 0 auto 0;
+}
+
+main div div#content3 div#right-content a {
+    margin: 25px auto 60px;
+}
+
+/*============================
+#content4
+============================*/
+main div div#content4 {
+    display: flex;
+    width: 375px;
+    height: 576px;
+    margin: 18px auto 70px;
+}
+
+main div div#content4 div#left-content {
+    display: none;
+}
+
+main div div#content4 div#center-content {
+    width: 100%;
+    height: 100%;
+    background-image: url("../photos/top/top-SP/cirlcles.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main div div#content4 div#right-content {
+    display: none;
+}
+
+main div div#content4 div#center-content h2 {
+    width: 100%;
+    height: 37px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    line-height: 37px;
+    text-align: center;
+    color: #391e88;
+    margin: 42px auto 2px;
+}
+
+main div div#content4 div#center-content h3 {
+    width: 100%;
+    height: 19px;
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 19px;
+    text-align: center;
+    color: #391e88;
+    margin: 0 auto 30px;
+}
+
+main div div#content4 div#center-content h4 {
+    width: 280px;
+    height: 91px;
+   font-family: "Hiragino Sans";
+   font-weight: normal;
+   font-size: 32px;
+   letter-spacing: 0.05em;
+   line-height: 48px;
+   text-align: center;
+   color: #333;
+
+
+    border-bottom: 12px solid #F5F534;
+    margin: 22px auto 0px;
+}
+
+main div div#content4 div#center-content p {
+    width: 230px;
+    height: auto;
+   font-family: "Hiragino Sans";
+   font-weight: normal;
+   font-size: 14px;
+   letter-spacing: 0.05em;
+   line-height: 25px;
+   text-align: center;
+   color: #333;
+   margin: 39px auto 0;
+}
+
+main div div#content4 div#center-content a {
+    margin: 25px auto 0;
+}
+
+main div div#content4 div#right-content picture:nth-child(1) {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+main div div#content4 div#right-content picture:nth-child(1) source {}
+
+main div div#content4 div#right-content picture:nth-child(1) img {}
+
+main div div#content4 div#right-content picture:nth-child(2) {
+    position: absolute;
+    top: 256px;
+    right: 146px;
+}
+
+main div div#content4 div#right-content picture:nth-child(2) source {}
+
+main div div#content4 div#right-content picture:nth-child(2) img {}
+
+/*============================
+#content5
+============================*/
+main div div#content5 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 375px;
+    height: 440px;
+    margin: 0 auto 0;
+
+}
+
+main div div#content5 div {
+   width: 375px;
+   height: 300px;
+   background: #f7f7f7;
+   order: 2;
+}
+
+main div div#content5 div h2 {
+    width: 100%;
+    height: 48px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    line-height: 48px;
+    text-align: center;
+    color: #391e88;
+    margin: 60px auto 0;
+}
+
+main div div#content5 div h3 {
+    width: 100%;
+    height: 18px;
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 18px;
+    text-align: center;
+    color: #391e88;
+    margin: 0 auto 28px;
+}
+
+main div div#content5 div p {
+    width: 100%;
+    height: 15px;
+    font-family: "Hiragino Sans";
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 28px;
+    text-align: center;
+    color: #333;
+    margin: 0 auto 28px;
+}
+
+main div div#content5 div a {
+    margin: 0 auto 0;
+}
+
+main div div#content5 picture {
+    order: 1;
+}
+
+main div div#content5 picture source {}
+
+main div div#content5 picture img {}
+
+ /*============================
+#contact
+============================*/
+ main div#contact {
+     width: 100%;
+     height: auto;
+     background: #f7f7f7;
+     padding: 1px;
+     margin: 40px auto 0;
+ }
+
+ main div#contact h2 {
+     width: 100%;
+     height: 46px;
+     font-family: Montserrat;
+     font-weight: bold;
+     font-size: 34px;
+     letter-spacing: 0.02em;
+     line-height: 46px;
+     text-align: center;
+     color: #391e88;
+     margin: 75px auto 0;
+ }
+
+ main div#contact h3 {
+     width: 100%;
+     height: 18px;
+     font-family: "Hiragino Sans";
+     font-weight: normal;
+     font-size: 14px;
+     letter-spacing: 0.05em;
+     line-height: 32px;
+     text-align: center;
+     color: #391e88;
+     margin: 0 auto 30px;
+ }
+
+ main div#contact p {
+     width: 253px;
+     height: auto;
+     font-family: "Hiragino Sans";
+     font-weight: normal;
+     font-size: 15px;
+     letter-spacing: 0.05em;
+     line-height: 32px;
+     text-align: center;
+     color: #333;
+     margin: 26px auto 28px;
+ }
+
+ main div#contact a {
+     margin: 0 auto 60px;
+ }
+
+
+/*============================
+#topfooter
+============================*/
+footer#topfooter {
+    width: 100%;
+    height: 213px;
+    background: #120e19;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+footer#topfooter nav {
+    width: 100%;
+    height: auto;
+    margin: 59px 0 22px;
+}
+
+footer#topfooter nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 320px;
+    height: 100%;
+    padding-left: 0;
+    margin: 0 20px 0; 
+}
+
+footer#topfooter nav ul li {
+    display: block;
+    margin: 0 10px 0;
+}
+
+footer#topfooter nav ul li a {
+    height: 18px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+footer#topfooter p {
+    width: 100%;
+    height: 12px;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    line-height: 12px;
+    text-align: center;
+    color: #a798b7;
+}
+
+}
+@media screen and (min-width:0px) and (max-width:699px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*============================
+#tophead
+============================*/
+    header#tophead {
+        width: 100%;
+        height: 812px;
+        background-image: url("../photos/top/top-SP/hero.jpg");
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+        padding: 1px;
+    }
+
+    /*============================
+#head-content
+============================*/
+    header#tophead div#head-content {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 86px;
+    }
+
+    header#tophead div#head-content a {
+        display: block;
+        width: 160px;
+        height: 18px;
+        margin: 21px 0 0 21px;
+    }
+
+    header#tophead div#head-content a picture {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    header#tophead div#head-content a picture source {
+        position: absolute;
+        top: 0; 
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    header#tophead div#head-content a picture img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    header#tophead div#head-content nav {
+        width: auto;
+        height: 100%;
+    }
+
+    header#tophead div#head-content nav ul {
+        position: absolute;
+        right: 17.5px;
+        display: flex;
+        padding-left: 0;
+    }
+
+    header#tophead div#head-content nav ul li {
+        list-style: none;
+        margin: 0 12.5px;
+    }
+
+    header#tophead div#head-content nav ul li a {
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 15px;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+    }
+
+     header#tophead div#head-content nav{
+        display: none;
+     }
+
+     /*ここからハンバーガーデザイン*/
+
+     /*ここからハンバーガーデザイン*/
+
+     div#SP-hum {
+         position: absolute;
+         top: 12px;
+         right: 15px;
+         width: 44px;
+         height: 44px;
+         z-index: 100;
+     }
+
+     div#SP-hum span {
+         position: absolute;
+         display: block;
+         width: 31px;
+         height: 2px;
+         background-color: #FFFFFF;
+         border-radius: 1px;
+         transition: all .3s;
+     }
+
+     div#SP-hum span:nth-child(1) {
+         top: 15px;
+         left: 6.5px;
+     }
+
+     div#SP-hum span:nth-child(2) {
+         top: 22px;
+         left: 6.5px;
+     }
+
+     div#SP-hum span:nth-child(3) {
+         top: 29px;
+         left: 6.5px;
+     }
+
+     div#SP-hum span#span1.active {
+         top: 22px;
+         left: 6.5px;
+         transform: rotate(225deg);
+     }
+
+     div#SP-hum span#span2.active {
+         display: none;
+     }
+
+     div#SP-hum span#span3.active {
+         top: 22px;
+         left: 6.5px;
+         transform: rotate(-225deg);
+     }
+
+     nav#SP-menu {
+         position: fixed;
+         align-items: center;
+         display: flex;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background-color: #642390;
+         transition: all .3s;
+         transform: translateX(100vw);
+         z-index: 99;
+     }
+
+     nav#SP-menu ul {
+         width: 100%;
+         height: auto;
+         padding: 0;
+     }
+
+     nav#SP-menu ul li {
+         list-style: none;
+     }
+
+     nav#SP-menu ul li a {
+         display: block;
+         width: 100%;
+         height: 40px;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 15px;
+         letter-spacing: 0.05em;
+         line-height: 15px;
+         text-align: center;
+         color: #fff;
+
+     }
+
+     .fadein {
+         transform: translateX(0) !important;
+     }
+
+     /*ここまで*/
+
+    header#tophead h1 {
+        width: 100%;
+        height: 93px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 40px;
+        letter-spacing: 0.05em;
+        line-height: 44px;
+        text-align: left;
+        color: #fff;
+        margin: 220px auto 0;
+        padding: 0 20px;
+    }
+
+    header#tophead h2 {
+        width: 160px;
+        height: 50px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        line-height: 29px;
+        text-align: left;
+        color: #fff;
+        text-shadow: 0px 3px 6px rgba(153, 38, 196, 0.16);
+        margin: 17px 20px 0;
+    }
+
+    header#tophead #head-button {
+        display: block;
+        width: 220px;
+        height: 55px;
+        border-radius: 27.5px;
+        background: transparent;
+        border: 1px solid #fff;
+        text-decoration: none;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 55px;
+        text-align: center;
+        color: #fff;
+        text-align: center;
+        margin: 47px auto 0;
+    }
+
+    main {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    main div {
+        width: 100%;
+        height: auto;
+    }
+
+    a.link-button {
+        display: block;
+        width: 200px;
+        height: 54px;
+        border-radius: 27px;
+        background: linear-gradient(#7633a4 0%, #250d65 100%);
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 54px;
+        text-align: center;
+        color: #fff;
+    }
+
+    /*============================
+#content1
+============================*/
+    main div div#content1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 375px;
+        height: auto;
+        margin: 70px auto 0;
+    }
+
+    main div div#content1 div {
+        width: 170px;
+        height: 100%;
+    }
+
+    main div div#content1 div h2 {
+        width: 100%;
+        height: 44px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 36px;
+        letter-spacing: 0.02em;
+        line-height: 44px;
+        text-align: left;
+        color: #391e88;
+        margin: 0;
+    }
+
+    main div div#content1 div h3 {
+        width: 165px;
+        height: 17px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        line-height: 17px;
+        text-align: left;
+        color: #391e88;
+        margin: 0 auto 0;
+    }
+
+    main div div#content1 article {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 375px;
+        height: auto;
+    }
+
+    main div div#content1 article article {
+        width: 100%;
+        height: auto;
+        margin: 17.5px 0;
+    }
+
+    main div div#content1 article article a {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+
+    main div div#content1 article article a dd.data {
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.1em;
+        line-height: 22px;
+        text-align: center;
+        color: #333;
+    }
+
+    main div div#content1 article article a dd.tag {
+        width: 82px;
+        height: 22px;
+        border-radius: 11px;
+        background: #e8e8e8;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        line-height: 22px;
+        text-align: center;
+        color: #333;
+        margin: 0 20px 0;
+    }
+
+    main div div#content1 article article a dd.ddtext {
+        width: 100%;
+        height: auto;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 22px;
+        text-align: left;
+        color: #333;
+        margin: 10px auto 0;
+    }
+
+    /*============================
+#content2
+============================*/
+    main div div#content2 {
+        width: 375px;
+        height: auto;
+        margin: 75px auto 0;
+    }
+
+    main div div#content2 h2 {
+        width: 100%;
+        height: 44px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        line-height: 44px;
+        text-align: center;
+        color: #391e88;
+
+    }
+
+    main div div#content2 h3 {
+        width: 100%;
+        height: 17px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        line-height: 17px;
+        text-align: center;
+        color: #391e88;
+        margin: 2px auto 28px;
+    }
+
+    main div div#content2 #flexconetnt-c2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        padding: 1px;
+    }
+
+    main div div#content2 div div {
+        width: 350px;
+        height: 330px;
+        margin: 20px 0;
+    }
+
+    main div div#content2 div div picture {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 210px;
+    }
+
+    main div div#content2 div div picture source {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    main div div#content2 div div picture img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    main div div#content2 div div h3 {
+        width: 100%;
+        height: 24px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: 0.05em;
+        line-height: 24px;
+        text-align: center;
+        color: #333;
+        margin: 12px auto 10px;
+    }
+
+    main div div#content2 div div p {
+        height: 100%;
+        height: 47px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 27px;
+        text-align: left;
+        color: #333;
+
+    }
+
+    main div div#content2 a {
+        margin: 30px auto 40px;
+    }
+
+
+    /*============================
+#content3
+============================*/
+    main div div#content3 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 375px;
+        height: auto;
+        margin: 0 auto 40px;
+    }
+
+    /*============================
+#left-content
+============================*/
+    main div div#content3 div#left-content {
+        position: relative;
+        width: 100%;
+        height: 115px;
+        z-index: 1;
+    }
+
+    main div div#content3 div#left-content picture {
+        position: absolute;
+        width: 325px;
+        height: 231px;
+        z-index: 3;
+        margin: 0 25px 0;
+    }
+
+    main div div#content3 div#left-content picture source {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    main div div#content3 div#left-content picture img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    main div div#content3 div#right-content {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: #F0F0F0;
+        padding: 1px;
+        z-index: -1;
+    }
+
+    main div div#content3 div#right-content h2 {
+        width: 100%;
+        height: 44px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        line-height: 44px;
+        text-align: center;
+        color: #391e88;
+        margin: 156px auto 0;
+    }
+
+    main div div#content3 div#right-content h3 {
+        width: 100%;
+        height: 19px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 19px;
+        white-space: nowrap;
+        text-align: center;
+        color: #391e88;
+        margin: 2px auto 29px;
+    }
+
+    main div div#content3 div#right-content p {
+        width: calc(100% - 100px);
+        height: auto;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 27px;
+        text-align: center;
+        color: #333;
+        margin: 0 auto 0;
+    }
+
+    main div div#content3 div#right-content a {
+        margin: 25px auto 60px;
+    }
+
+    /*============================
+#content4
+============================*/
+    main div div#content4 {
+        display: flex;
+        width: 375px;
+        height: 576px;
+        margin: 18px auto 70px;
+    }
+
+    main div div#content4 div#left-content {
+        display: none;
+    }
+
+    main div div#content4 div#center-content {
+        width: 100%;
+        height: 100%;
+        background-image: url("../photos/top/top-SP/cirlcles.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    main div div#content4 div#right-content {
+        display: none;
+    }
+
+    main div div#content4 div#center-content h2 {
+        width: 100%;
+        height: 37px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 30px;
+        letter-spacing: 0.05em;
+        line-height: 37px;
+        text-align: center;
+        color: #391e88;
+        margin: 42px auto 2px;
+    }
+
+    main div div#content4 div#center-content h3 {
+        width: 100%;
+        height: 19px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 19px;
+        text-align: center;
+        color: #391e88;
+        margin: 0 auto 30px;
+    }
+
+    main div div#content4 div#center-content h4 {
+        width: 280px;
+        height: 91px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 0.05em;
+        line-height: 48px;
+        text-align: center;
+        color: #333;
+
+
+        border-bottom: 12px solid #F5F534;
+        margin: 22px auto 0px;
+    }
+
+    main div div#content4 div#center-content p {
+        width: 230px;
+        height: auto;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 25px;
+        text-align: center;
+        color: #333;
+        margin: 39px auto 0;
+    }
+
+    main div div#content4 div#center-content a {
+        margin: 25px auto 0;
+    }
+
+    main div div#content4 div#right-content picture:nth-child(1) {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    main div div#content4 div#right-content picture:nth-child(1) source {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    main div div#content4 div#right-content picture:nth-child(1) img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    main div div#content4 div#right-content picture:nth-child(2) {
+        position: absolute;
+        top: 256px;
+        right: 146px;
+    }
+
+    main div div#content4 div#right-content picture:nth-child(2) source {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    main div div#content4 div#right-content picture:nth-child(2) img {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+    }
+
+    /*============================
+#content5
+============================*/
+    main div div#content5 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 375px;
+        height: 440px;
+        margin: 0 auto 0;
+
+    }
+
+    main div div#content5 div {
+        width: 375px;
+        height: 300px;
+        background: #f7f7f7;
+        order: 2;
+    }
+
+    main div div#content5 div h2 {
+        width: 100%;
+        height: 48px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        line-height: 48px;
+        text-align: center;
+        color: #391e88;
+        margin: 60px auto 0;
+    }
+
+    main div div#content5 div h3 {
+        width: 100%;
+        height: 18px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 18px;
+        text-align: center;
+        color: #391e88;
+        margin: 0 auto 28px;
+    }
+
+    main div div#content5 div p {
+        width: 100%;
+        height: 15px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 28px;
+        text-align: center;
+        color: #333;
+        margin: 0 auto 28px;
+    }
+
+    main div div#content5 div a {
+        margin: 0 auto 0;
+    }
+
+    main div div#content5 picture {
+        order: 1;
+    }
+
+    main div div#content5 picture source {}
+
+    main div div#content5 picture img {}
+
+     /*============================
+#contact
+============================*/
+     main div#contact {
+         width: 100%;
+         height: auto;
+         background: #f7f7f7;
+         padding: 1px;
+         margin: 40px auto 0;
+     }
+
+     main div#contact h2 {
+         width: 100%;
+         height: 46px;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 34px;
+         letter-spacing: 0.02em;
+         line-height: 46px;
+         text-align: center;
+         color: #391e88;
+         margin: 75px auto 0;
+     }
+
+     main div#contact h3 {
+         width: 100%;
+         height: 18px;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 14px;
+         letter-spacing: 0.05em;
+         line-height: 32px;
+         text-align: center;
+         color: #391e88;
+         margin: 0 auto 30px;
+     }
+
+     main div#contact p {
+         width: 253px;
+         height: auto;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 15px;
+         letter-spacing: 0.05em;
+         line-height: 32px;
+         text-align: center;
+         color: #333;
+         margin: 26px auto 28px;
+     }
+
+     main div#contact a {
+         margin: 0 auto 60px;
+     }
+
+    /*============================
+#topfooter
+============================*/
+    footer#topfooter {
+        width: 100%;
+        height: 213px;
+        background: #120e19;
+        margin: 0 auto;
+        padding: 1px;
+    }
+
+    footer#topfooter nav {
+        width: 100%;
+        height: auto;
+        margin: 59px 0 22px;
+    }
+
+    footer#topfooter nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        width: 320px;
+        height: 100%;
+        padding-left: 0;
+        margin: 0 20px 0;
+    }
+
+    footer#topfooter nav ul li {
+        display: block;
+        margin: 0 10px 0;
+    }
+
+    footer#topfooter nav ul li a {
+        height: 18px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 15px;
+        text-align: center;
+        color: #fff;
+    }
+
+    footer#topfooter p {
+        width: 100%;
+        height: 12px;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 10px;
+        letter-spacing: 0.05em;
+        line-height: 12px;
+        text-align: center;
+        color: #a798b7;
+    }
+
+}

@@ -1,0 +1,740 @@
+@media screen and (min-width:1140px) {
+    main {
+        width: 100%;
+        height: auto;
+    }
+
+    /*============================
+#content1
+============================*/
+    main div#content1 {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 1300px;
+        height: auto;
+        margin: 0 auto 70px;
+    }
+
+    main div#content1 #background{
+        position: absolute;
+        top: -15px;
+        left: 218px;
+        width: 864px;
+        height: 615px;
+        z-index: -1;
+    }
+    main div#content1 div#message{
+        display: flex;
+        width: 100%;
+        height: 527px;
+    }
+
+    main div#content1 div#message div#left-content {
+        position: relative;
+        width: 218px;
+        height: 100%;
+    }
+
+    main div#content1 div#message div#center-content {
+        width: 864px;
+        height: 527px;
+        background-image: url("../photos/top/top-PC/bg-circle.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    main div#content1 div#message div#right-content {
+        position: relative;
+        width: 218px;
+        height: 100%;
+    }
+
+    main div#content1 div#message div#left-content picture:nth-child(1) {
+        position: absolute;
+        top: 35px;
+        left: 0;
+    }
+
+    main div#content1 div#message div#left-content picture:nth-child(1) source {}
+
+    main div#content1 div#message div#left-content picture:nth-child(1) img {}
+
+    main div#content1 div#message div#left-content picture:nth-child(2) {
+        position: absolute;
+        top: 291px;
+        left: 146px;
+        display: block;
+    }
+
+    main div#content1 div#message div#left-content picture:nth-child(2) source {}
+
+    main div#content1 div#message div#left-content picture:nth-child(2) img {}
+
+    main div#content1 div#message div#center-content h2 {
+        width: 100%;
+        height: 43px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        line-height: 43px;
+        text-align: center;
+        color: #391e88;
+        margin: 93px auto 0;
+
+    }
+
+    main div#content1 div#message div#center-content h4 {
+        width: 666px;
+        height: 53px;
+      font-family: "Hiragino Sans";
+      font-weight: normal;
+      font-size: 40px;
+      letter-spacing: 0.05em;
+      line-height: 53px;
+      text-align: center;
+      color: #333;
+
+        border-bottom: 12px solid #F5F534;
+        margin: 19px auto 30px;
+        padding: 0 75px;
+        white-space: nowrap;
+    }
+
+    main div#content1 div#message div#center-content p {
+        width: 451px;
+        height: 127px;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.05em;
+        line-height: 27px;
+        text-align: center;
+        color: #333;
+        margin: 41px auto 30px;
+    }
+
+    main div#content1 div#message div#center-content a {
+        margin: 0 auto 0;
+    }
+
+    main div#content1 div#message div#right-content picture:nth-child(1) {
+        display: block;
+        position: absolute;
+        top:35px;
+        right: 0;
+    }
+
+    main div#content1 div#message div#right-content picture:nth-child(1) source {
+    }
+
+    main div#content1 div#message div#right-content picture:nth-child(1) img {
+    }
+
+    main div#content1 div#message div#right-content picture:nth-child(2) {
+        position: absolute;
+        top: 291px;
+        right: 146px;
+    }
+
+    main div#content1 div#message div#right-content picture:nth-child(2) source {
+    }
+
+    main div#content1 div#message div#right-content picture:nth-child(2) img {
+    }
+
+
+      main div#content1 div#bottom-left-content {
+        position: relative;
+          width: 445px;
+          height: 330px;
+          margin: 0 0 0 95px;
+      }
+
+      main div#content1 div#bottom-left-content picture {
+        position: absolute;
+          width: 100%;
+          height: 100%;
+      }
+
+      main div#content1 div#bottom-left-content picture source {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+      }
+
+      main div#content1 div#bottom-left-content picture img {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+      }
+
+      main div#content1 div#bottom-right-content p {
+          width: 605px;
+          height: auto;
+          font-family: "Hiragino Sans";
+          font-weight: normal;
+          font-size: 15px;
+          letter-spacing: 0.05em;
+          line-height: 25px;
+          text-align: left;
+          color: #333;
+          margin-left: 50px;
+      }
+
+      /*============================
+#content3
+============================*/
+      main div#content3 {
+          width: 1110px;
+          height: 936px;
+          margin: 133px auto 109px;
+      }
+
+      main div#content3 h2 {
+          width: 100%;
+          height: 43px;
+          font-family: Montserrat;
+          font-weight: bold;
+          font-size: 32px;
+          letter-spacing: 0.05em;
+          line-height: 43px;
+          text-align: center;
+          color: #391e88;
+
+      }
+
+      main div#content3 ul {
+          width: 100%;
+      }
+
+      main div#content3 ul li {
+          display: flex;
+          height: 78px;
+          border-bottom: solid 1px #DDDDDD;
+      }
+
+      main div#content3 ul li h3 {
+          width: 174px;
+          height: 78px;
+          font-family: "Hiragino Sans";
+          font-weight: normal;
+          font-size: 15px;
+          letter-spacing: 0.05em;
+          line-height: 78px;
+          text-align: left;
+          color: #333;
+      }
+
+      main div#content3 ul li p {
+          line-height: 78px;
+          font-family: Montserrat;
+          font-weight: normal;
+          font-size: 15px;
+          letter-spacing: 0.05em;
+          line-height: 78px;
+          text-align: left;
+          color: #333;
+
+      }
+
+      main div#content3 div {
+          width: 100%;
+          margin-top: 60.5px;
+      }
+
+      /*============================
+#map
+============================*/
+      main div#content3 div div#map {
+          width: 100%;
+          height: 394px;
+      }
+
+      main div#content3 div div#map iframe {
+          display: block;
+          width: 100%;
+          height: 100%;
+      }
+
+      main div#content3 div a {
+          height: 21px;
+          font-family: "Hiragino Sans";
+          font-weight: normal;
+          font-size: 16px;
+          letter-spacing: 0.05em;
+          line-height: 21px;
+          text-align: left;
+          color: #240c6a;
+          margin-top: 7px;
+      }
+}
+@media screen and (min-width:700px) and (max-width:1139px) {
+     main {
+         width: 100%;
+         height: auto;
+     }
+
+     /*============================
+#content1
+============================*/
+     main div#content1 {
+        position: relative;
+         display: flex;
+         flex-wrap: wrap;
+         width: 375px;
+         height: auto;
+         margin: 55px auto 70px;
+     }
+
+     main div#content1 #background {
+         position: absolute;
+         top: -48px;
+         left: -4.5px;
+        width: 384px;
+        height: 1029px;
+         z-index: -1;
+     }
+
+
+     main div#content1 div#message {
+         display: flex;
+         width: 100%;
+         height: auto;
+     }
+
+     main div#content1 div#message div#left-content {
+       display: none;
+     }
+
+     main div#content1 div#message div#center-content {
+         width: 375px;
+         height: auto;
+     }
+
+     main div#content1 div#message div#right-content {
+        display: none;
+     }
+
+     main div#content1 div#message div#center-content h2 {
+         width: 100%;
+         height: 43px;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 36px;
+         letter-spacing: 0.05em;
+         line-height: 43px;
+         text-align: center;
+         color: #391e88;
+         margin: 0 auto 0;
+
+     }
+
+     main div#content1 div#message div#center-content h4 {
+         width: 266px;
+         height: 53px;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 32px;
+         letter-spacing: 0.05em;
+         line-height: 41px;
+         text-align: center;
+         color: #333;
+         margin: 20px auto 40px;
+         padding: 0;
+         white-space: nowrap;
+     }
+
+     main div#content1 div#message div#center-content p {
+         width: 295px;
+         height: auto;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 15px;
+         letter-spacing: 0.05em;
+         line-height: 27px;
+         text-align: center;
+         color: #333;
+         margin: 0 auto 55px;
+     }
+
+     main div#content1 div#message div#center-content a {
+         margin: 0 auto 0;
+     }
+
+
+     main div#content1 div#bottom-left-content {
+       width: 335px;
+       height: 248px;
+       margin: 0 auto;
+     }
+
+     main div#content1 div#bottom-left-content picture {
+        position: relative;
+        display: block;
+         width: 100%;
+         height: 100%;
+     }
+
+     main div#content1 div#bottom-left-content picture source {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+     }
+
+     main div#content1 div#bottom-left-content picture img {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+     }
+
+     main div#content1 div#bottom-right-content {
+         width: 335px;
+         height: auto;
+         margin: 0 auto;
+     }
+
+     main div#content1 div#bottom-right-content p {
+        width: 100%;
+        height: auto;
+        font-family: "Hiragino Sans";
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        line-height: 24px;
+        text-align: left;
+        color: #333;
+        margin: 30px auto 142px;
+     }
+
+     /*============================
+#content3
+============================*/
+     main div#content3 {
+        width: 341.07px;
+        height: auto;
+        margin: 0 auto 0;
+     }
+
+     main div#content3 h2 {
+         width: 100%;
+         height: 43px;
+         font-family: Montserrat;
+         font-weight: bold;
+         font-size: 32px;
+         letter-spacing: 0.05em;
+         line-height: 43px;
+         text-align: center;
+         color: #391e88;
+
+     }
+
+     main div#content3 ul {
+         width: 100%;
+     }
+
+     main div#content3 ul li {
+         display: flex;
+         flex-wrap: wrap;
+         height: auto;
+         border-bottom: solid 1px #DDDDDD;
+     }
+
+     main div#content3 ul li h3 {
+         width: 100%;
+         height: 21px;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 15px;
+         letter-spacing: 0.05em;
+         line-height: 21px;
+         text-align: left;
+         color: #333;
+         margin: 17.5px 0 0 0;
+     }
+
+     main div#content3 ul li p {
+         line-height: 21px;
+         font-family: Montserrat;
+         font-weight: normal;
+         font-size: 15px;
+         letter-spacing: 0.05em;
+         line-height: 21px;
+         text-align: left;
+         color: #333;
+         margin: 0 0 20.5px 0;
+     }
+
+     main div#content3 div {
+         width: 100%;
+         margin-top: 60.5px;
+     }
+
+     /*============================
+#map
+============================*/
+     main div#content3 div div#map {
+       width: 335px;
+       height: 240px;
+       margin: 0 auto 0;
+     }
+
+     main div#content3 div div#map iframe {
+         display: block;
+         width: 100%;
+         height: 100%;
+     }
+
+     main div#content3 div a {
+         height: 21px;
+         font-family: "Hiragino Sans";
+         font-weight: normal;
+         font-size: 16px;
+         letter-spacing: 0.05em;
+         line-height: 21px;
+         text-align: left;
+         color: #240c6a;
+         margin-top: 7px;
+     }
+}
+@media screen and (min-width:0px) and (max-width:699px) {
+   main {
+       width: 100%;
+       height: auto;
+   }
+
+   /*============================
+#content1
+============================*/
+   main div#content1 {
+       position: relative;
+       display: flex;
+       flex-wrap: wrap;
+       width: 375px;
+       height: auto;
+       margin: 55px auto 70px;
+   }
+
+   main div#content1 #background {
+       position: absolute;
+       top: -48px;
+       left: -4.5px;
+       width: 384px;
+       height: 1029px;
+       z-index: -1;
+   }
+
+
+   main div#content1 div#message {
+       display: flex;
+       width: 100%;
+       height: auto;
+   }
+
+   main div#content1 div#message div#left-content {
+       display: none;
+   }
+
+   main div#content1 div#message div#center-content {
+       width: 375px;
+       height: auto;
+   }
+
+   main div#content1 div#message div#right-content {
+       display: none;
+   }
+
+   main div#content1 div#message div#center-content h2 {
+       width: 100%;
+       height: 43px;
+       font-family: Montserrat;
+       font-weight: bold;
+       font-size: 36px;
+       letter-spacing: 0.05em;
+       line-height: 43px;
+       text-align: center;
+       color: #391e88;
+       margin: 0 auto 0;
+
+   }
+
+   main div#content1 div#message div#center-content h4 {
+       width: 266px;
+       height: 53px;
+       font-family: "Hiragino Sans";
+       font-weight: normal;
+       font-size: 32px;
+       letter-spacing: 0.05em;
+       line-height: 41px;
+       text-align: center;
+       color: #333;
+       margin: 20px auto 40px;
+       padding: 0;
+       white-space: nowrap;
+   }
+
+   main div#content1 div#message div#center-content p {
+       width: 295px;
+       height: auto;
+       font-family: "Hiragino Sans";
+       font-weight: normal;
+       font-size: 15px;
+       letter-spacing: 0.05em;
+       line-height: 27px;
+       text-align: center;
+       color: #333;
+       margin: 0 auto 55px;
+   }
+
+   main div#content1 div#message div#center-content a {
+       margin: 0 auto 0;
+   }
+
+
+   main div#content1 div#bottom-left-content {
+       width: 335px;
+       height: 248px;
+       margin: 0 auto;
+   }
+
+   main div#content1 div#bottom-left-content picture {
+       position: relative;
+       display: block;
+       width: 100%;
+       height: 100%;
+   }
+
+   main div#content1 div#bottom-left-content picture source {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+
+   main div#content1 div#bottom-left-content picture img {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+
+   main div#content1 div#bottom-right-content {
+       width: 335px;
+       height: auto;
+       margin: 0 auto;
+   }
+
+   main div#content1 div#bottom-right-content p {
+       width: 100%;
+       height: auto;
+       font-family: "Hiragino Sans";
+       font-weight: normal;
+       font-size: 14px;
+       letter-spacing: 0.05em;
+       line-height: 24px;
+       text-align: left;
+       color: #333;
+       margin: 30px auto 142px;
+   }
+
+   /*============================
+#content3
+============================*/
+   main div#content3 {
+       width: 341.07px;
+       height: auto;
+       margin: 0 auto 0;
+   }
+
+   main div#content3 h2 {
+       width: 100%;
+       height: 43px;
+       font-family: Montserrat;
+       font-weight: bold;
+       font-size: 32px;
+       letter-spacing: 0.05em;
+       line-height: 43px;
+       text-align: center;
+       color: #391e88;
+
+   }
+
+   main div#content3 ul {
+       width: 100%;
+   }
+
+   main div#content3 ul li {
+       display: flex;
+       flex-wrap: wrap;
+       height: auto;
+       border-bottom: solid 1px #DDDDDD;
+   }
+
+   main div#content3 ul li h3 {
+       width: 100%;
+       height: 21px;
+       font-family: "Hiragino Sans";
+       font-weight: normal;
+       font-size: 15px;
+       letter-spacing: 0.05em;
+       line-height: 21px;
+       text-align: left;
+       color: #333;
+       margin: 17.5px 0 0 0;
+   }
+
+   main div#content3 ul li p {
+       line-height: 21px;
+       font-family: Montserrat;
+       font-weight: normal;
+       font-size: 15px;
+       letter-spacing: 0.05em;
+       line-height: 21px;
+       text-align: left;
+       color: #333;
+       margin: 0 0 20.5px 0;
+   }
+
+   main div#content3 div {
+       width: 100%;
+       margin-top: 60.5px;
+   }
+
+   /*============================
+#map
+============================*/
+   main div#content3 div div#map {
+       width: 335px;
+       height: 240px;
+       margin: 0 auto 0;
+   }
+
+   main div#content3 div div#map iframe {
+       display: block;
+       width: 100%;
+       height: 100%;
+   }
+
+   main div#content3 div a {
+       height: 21px;
+       font-family: "Hiragino Sans";
+       font-weight: normal;
+       font-size: 16px;
+       letter-spacing: 0.05em;
+       line-height: 21px;
+       text-align: left;
+       color: #240c6a;
+       margin-top: 7px;
+   }
+}
